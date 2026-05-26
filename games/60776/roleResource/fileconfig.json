@@ -1,0 +1,127 @@
+{
+  "files": {
+    "roleResource/Activity": [
+      "gameicon124.jpg",
+      "sidebar_pic1.jpg",
+      "sidebar_pic2.jpg"
+    ],
+    "roleResource/Ani_getItemOne": [
+      "Ani_getItemOne.png"
+    ],
+    "roleResource/GuideItem": [
+      "GuideItem.png"
+    ],
+    "roleResource/Index": [
+      "tabbarBg0.png",
+      "tabbarBg1.png"
+    ],
+    "roleResource/Room": [
+      "Room.png"
+    ],
+    "roleResource/Swf_Ani": [
+      "Swf_Ani.png"
+    ],
+    "roleResource/Swf_guide": [
+      "Swf_guide.png"
+    ],
+    "roleResource/Swf_piece": [
+      "Swf_piece.png"
+    ],
+    "roleResource/battle": [
+      "dragArrow.png",
+      "gridSelect.png",
+      "iconIce0.png",
+      "iconIce1.png",
+      "iconIce2.png",
+      "iconIce3.png",
+      "iconItemUsed.png",
+      "tail_w.png"
+    ],
+    "roleResource/uis": [
+      "alert2_btnclose.png",
+      "alert2_line.png",
+      "alert2.png",
+      "Area2.png",
+      "battleBg.jpg",
+      "btn_close.png",
+      "btnA.png",
+      "btnB.png",
+      "btnBack.png",
+      "btnC.png",
+      "btnGreen.png",
+      "btnTask.png",
+      "BtnWood1.png",
+      "ground1.png",
+      "iconHP.png",
+      "iconItem1.png",
+      "iconItem2.png",
+      "iconItem3.png",
+      "iconStep.png",
+      "item_bread.png",
+      "item_refresh.png",
+      "item_sickle.png",
+      "lockIcon2.png",
+      "missionOneBg.png",
+      "new.png",
+      "resultTitleBg.png",
+      "skillBg.png"
+    ]
+  },
+  "config": [
+    {
+      "type": 2,
+      "sRGB": true,
+      "wrapMode": 1,
+      "filterMode": 1,
+      "anisoLevel": 1,
+      "mipmap": false,
+      "pma": true,
+      "files": [
+        {
+          "file": "",
+          "format": 1,
+          "ext": "jpg"
+        }
+      ],
+      "platforms": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "t": 0,
+      "i": [
+        0,
+        -2,
+        23
+      ]
+    },
+    {
+      "type": 2,
+      "sRGB": true,
+      "wrapMode": 1,
+      "filterMode": 1,
+      "anisoLevel": 1,
+      "mipmap": false,
+      "pma": true,
+      "files": [
+        {
+          "file": "",
+          "format": 1,
+          "ext": "png"
+        }
+      ],
+      "platforms": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "t": 0,
+      "i": [
+        3,
+        -19,
+        24,
+        -21
+      ]
+    }
+  ]
+}

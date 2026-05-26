@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "184485e92"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guanqiamoshi",
+      "rect": [
+        876,
+        1817,
+        213,
+        38
+      ],
+      "offset": [
+        -1,
+        0.5
+      ],
+      "originalSize": [
+        221,
+        57
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chess Master</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Chess Board -->
+    <div id="board" class="board"></div>
+
+    <!-- Game Information -->
+    <div class="info">
+        <label for="search-depth">Search depth:</label>
+        <select id="search-depth">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <span>Positions evaluated: <span id="position-count"></span></span><br>
+        <span>Time: <span id="time"></span></span><br>
+        <span>Positions/s: <span id="positions-per-s"></span></span>
+        <br><br>
+        <div id="move-history" class="move-history"></div>
+    </div>
+
+    <!-- GameMonetize SDK Integration -->
+    <script type="text/javascript">
+        window.SDK_OPTIONS = {
+            gameId: "dznqe8bswj0hm6r1ql2eh0i522tptqmd", // Replace with your game ID
+            onEvent: function(event) {
+                switch (event.name) {
+                    case "SDK_GAME_PAUSE":
+                        // Pause game logic or mute audio
+                        console.log("Game paused");
+                        break;
+                    case "SDK_GAME_START":
+                        // Resume game logic or unmute audio
+                        console.log("Game started");
+                        break;
+                    case "SDK_READY":
+                        // SDK is ready
+                        console.log("SDK is ready");
+                        break;
+                    case "SDK_ERROR":
+                        // Handle SDK error
+                        console.error("SDK error occurred");
+                        break;
+                }
+            }
+        };
+
+        // Load GameMonetize SDK
+        (function(document, tag, id) {
+            const firstScript = document.getElementsByTagName(tag)[0];
+            if (!document.getElementById(id)) {
+                const sdkScript = document.createElement(tag);
+                sdkScript.id = id;
+                sdkScript.src = "https://api.gamemonetize.com/sdk.js";
+                firstScript.parentNode.insertBefore(sdkScript, firstScript);
+            }
+        })(document, "script", "gamemonetize-sdk");
+
+        // Trigger ad display
+        function displayAd() {
+            if (window.sdk) {
+                sdk.showBanner();
+            } else {
+                console.warn("SDK not loaded yet");
+            }
+        }
+    </script>
+
+    <!-- Libraries -->
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="lib/chessboardjs/js/chess.js"></script>
+    <script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Trigger an ad at game start -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Game loaded, showing initial ad...");
+            displayAd();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+cc.RotateBy._reverse=!0;

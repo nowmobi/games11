@@ -1,0 +1,343 @@
+{
+  "importBase": "import",
+  "nativeBase": "native",
+  "name": "resources",
+  "deps": [],
+  "uuids": [
+    "0441bf109",
+    "064749bb2",
+    "081d2034d",
+    "08df589e9",
+    "0ac01c3be",
+    "0d514adce",
+    "0db9eee4d",
+    "1989XhmiVN2KCDNIjueAZn@6c48a",
+    "28+xgVKKlHt4WD/JyqC29k",
+    "64V+vJVmFEaI66nIRFaZ1l@6c48a",
+    "67TEoQjhtEPo89Ks1t/asd",
+    "1989XhmiVN2KCDNIjueAZn",
+    "1989XhmiVN2KCDNIjueAZn@f9941",
+    "20g1ukYUVPvKWKBRznAKo+",
+    "2eidE8iVtC8bDiQgz48iCD",
+    "4esDj4/TpLMrOWK5FfTb3X",
+    "b1pJbF0lxARph0Mm6lbE9n",
+    "20g1ukYUVPvKWKBRznAKo+@6c48a",
+    "20g1ukYUVPvKWKBRznAKo+@f9941",
+    "247xuw3wtIYrjlzpb311XV",
+    "54TknWPwVPqJqeCR+Y/Czo",
+    "eci51g1CREj6K2OVTiFpxY@6c48a",
+    "54TknWPwVPqJqeCR+Y/Czo@6c48a",
+    "54TknWPwVPqJqeCR+Y/Czo@f9941",
+    "64V+vJVmFEaI66nIRFaZ1l",
+    "64V+vJVmFEaI66nIRFaZ1l@f9941",
+    "7dj5uJT9FMn6OrOOx83tfK",
+    "7dj5uJT9FMn6OrOOx83tfK@6c48a",
+    "7dj5uJT9FMn6OrOOx83tfK@f9941",
+    "7eV8ATlOJFVaqvzitj1Ysg",
+    "a4h9oXfiJLsZkfarH95Z3+",
+    "7eV8ATlOJFVaqvzitj1Ysg@6c48a",
+    "7eV8ATlOJFVaqvzitj1Ysg@f9941",
+    "80Bc8mqOZP6bFJkoWeKX/j",
+    "fbDesM0K1EGYtEkYTMCJsC@6c48a",
+    "80Bc8mqOZP6bFJkoWeKX/j@6c48a",
+    "80Bc8mqOZP6bFJkoWeKX/j@f9941",
+    "831yZKWMJMdJDVUjfIB7AI",
+    "831yZKWMJMdJDVUjfIB7AI@6c48a",
+    "831yZKWMJMdJDVUjfIB7AI@f9941",
+    "95EkngnxZFbYuFpsqVTaFr",
+    "95EkngnxZFbYuFpsqVTaFr@6c48a",
+    "95EkngnxZFbYuFpsqVTaFr@f9941",
+    "b5XKqLmUNI9oIZdus9Bt/b",
+    "b5XKqLmUNI9oIZdus9Bt/b@6c48a",
+    "b5XKqLmUNI9oIZdus9Bt/b@f9941",
+    "bbMt0oJBBMp7Tl5fSaas0g",
+    "c5T6iw4CFCyoe9LJupJbMJ",
+    "d7Tw9yxCdMB4oqESSIu5Ty",
+    "d7Tw9yxCdMB4oqESSIu5Ty@6c48a",
+    "d7Tw9yxCdMB4oqESSIu5Ty@f9941",
+    "e2jrEiuEtJfLKN6+bUHdjY",
+    "e2jrEiuEtJfLKN6+bUHdjY@6c48a",
+    "e2jrEiuEtJfLKN6+bUHdjY@f9941",
+    "eci51g1CREj6K2OVTiFpxY",
+    "eci51g1CREj6K2OVTiFpxY@f9941",
+    "f5rHvKd5tPV6BasTi8P3iN",
+    "f5rHvKd5tPV6BasTi8P3iN@6c48a",
+    "f5rHvKd5tPV6BasTi8P3iN@f9941",
+    "fbDesM0K1EGYtEkYTMCJsC",
+    "fbDesM0K1EGYtEkYTMCJsC@f9941"
+  ],
+  "paths": {
+    "7": [
+      "ui/fk/b_3/texture",
+      2,
+      1
+    ],
+    "8": [
+      "prefabs/ui/game/Home",
+      0
+    ],
+    "9": [
+      "ui/fk/b_4/texture",
+      2,
+      1
+    ],
+    "10": [
+      "prefabs/ui/game/Item",
+      0
+    ],
+    "11": [
+      "ui/fk/b_3",
+      1
+    ],
+    "12": [
+      "ui/fk/b_3/spriteFrame",
+      3,
+      1
+    ],
+    "14": [
+      "prefabs/layer/Message",
+      0
+    ],
+    "15": [
+      "prefabs/layer/Ui",
+      0
+    ],
+    "16": [
+      "prefabs/ui/game/Game",
+      0
+    ],
+    "19": [
+      "prefabs/common/Score",
+      0
+    ],
+    "21": [
+      "ui/fk/b_2/texture",
+      2,
+      1
+    ],
+    "24": [
+      "ui/fk/b_4",
+      1
+    ],
+    "25": [
+      "ui/fk/b_4/spriteFrame",
+      3,
+      1
+    ],
+    "30": [
+      "prefabs/layer/Popup",
+      0
+    ],
+    "34": [
+      "ui/fk/b_1/texture",
+      2,
+      1
+    ],
+    "46": [
+      "prefabs/layer/Root",
+      0
+    ],
+    "47": [
+      "prefabs/layer/Loading",
+      0
+    ],
+    "54": [
+      "ui/fk/b_2",
+      1
+    ],
+    "55": [
+      "ui/fk/b_2/spriteFrame",
+      3,
+      1
+    ],
+    "59": [
+      "ui/fk/b_1",
+      1
+    ],
+    "60": [
+      "ui/fk/b_1/spriteFrame",
+      3,
+      1
+    ]
+  },
+  "scenes": {},
+  "packs": {
+    "0441bf109": [
+      "18",
+      "23",
+      "28",
+      "42",
+      "30",
+      "53"
+    ],
+    "064749bb2": [
+      "10",
+      "39"
+    ],
+    "081d2034d": [
+      "14",
+      "45"
+    ],
+    "08df589e9": [
+      "16",
+      "58"
+    ],
+    "0ac01c3be": [
+      "15",
+      "50"
+    ],
+    "0d514adce": [
+      "27",
+      "31",
+      "7",
+      "38",
+      "22",
+      "9",
+      "35",
+      "17",
+      "41",
+      "44",
+      "49",
+      "52",
+      "21",
+      "57",
+      "34"
+    ],
+    "0db9eee4d": [
+      "8",
+      "32",
+      "36"
+    ]
+  },
+  "versions": {
+    "import": [],
+    "native": []
+  },
+  "redirect": [],
+  "debug": false,
+  "extensionMap": {},
+  "hasPreloadScript": true,
+  "dependencyRelationships": {
+    "7": [
+      "11"
+    ],
+    "8": [
+      "36",
+      "32"
+    ],
+    "9": [
+      "24"
+    ],
+    "10": [
+      "39"
+    ],
+    "12": [
+      "7"
+    ],
+    "14": [
+      "45"
+    ],
+    "15": [
+      "50"
+    ],
+    "16": [
+      "58"
+    ],
+    "17": [
+      "13"
+    ],
+    "18": [
+      "17"
+    ],
+    "21": [
+      "54"
+    ],
+    "22": [
+      "20"
+    ],
+    "23": [
+      "22"
+    ],
+    "25": [
+      "9"
+    ],
+    "27": [
+      "26"
+    ],
+    "28": [
+      "27"
+    ],
+    "30": [
+      "28",
+      "53",
+      "18",
+      "23",
+      "42",
+      "45",
+      "32"
+    ],
+    "31": [
+      "29"
+    ],
+    "32": [
+      "31"
+    ],
+    "34": [
+      "59"
+    ],
+    "35": [
+      "33"
+    ],
+    "36": [
+      "35"
+    ],
+    "38": [
+      "37"
+    ],
+    "39": [
+      "38"
+    ],
+    "41": [
+      "40"
+    ],
+    "42": [
+      "41"
+    ],
+    "44": [
+      "43"
+    ],
+    "45": [
+      "44"
+    ],
+    "49": [
+      "48"
+    ],
+    "50": [
+      "49"
+    ],
+    "52": [
+      "51"
+    ],
+    "53": [
+      "52"
+    ],
+    "55": [
+      "21"
+    ],
+    "57": [
+      "56"
+    ],
+    "58": [
+      "57"
+    ],
+    "60": [
+      "34"
+    ]
+  },
+  "types": [
+    "cc.Prefab",
+    "cc.ImageAsset",
+    "cc.Texture2D",
+    "cc.SpriteFrame"
+  ]
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Play 2 Player Online Chess</title>
+        
+        <meta name="Title" content="Play 2 Player Online Chess" />
+        <meta name="description" content="Play Chess is a HTML5 game where two-player board game using a chessboard and sixteen pieces of six types for each player. Play against computer or against a friend and enjoy different up to 6 themes">
+		<meta name="keywords" content="chess, strategic, capture, skills, king, queen, strategy, opponent, piece, board, traditional, classic">
+        
+        <!-- for Facebook -->
+        <meta property="og:title" content="Play 2 Player Online Chess"/>
+        <meta property="og:site_name" content="2 Player Online Chess"/>
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:description" content="Play Chess is a HTML5 game where two-player board game using a chessboard and sixteen pieces of six types for each player. Play against computer or against a friend and enjoy different up to 6 themes">
+        
+        <!-- for Twitter -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Play 2 Player Online Chess" />
+        <meta name="twitter:description" content="Play Chess is a HTML5 game where two-player board game using a chessboard and sixteen pieces of six types for each player. Play against computer or against a friend and enjoy different up to 6 themes" />
+        <meta name="twitter:image" content="" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+            
+		<script>
+
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    "@-ms-viewport{width:device-width}"
+                )
+            );
+            document.getElementsByTagName("head")[0].
+                appendChild(msViewportStyle);
+        }
+
+        </script>
+
+        <script type="text/javascript">
+            window.SDK_OPTIONS = {
+            gameId: "tgsetdb6p6hq5xt6a1uz2se32gfjeo4l",
+            onEvent: function (a) {
+                switch (a.name) {
+                    case "SDK_GAME_PAUSE":
+                        // pause game logic / mute audio
+                        break;
+                    case "SDK_GAME_START":
+                        // advertisement done, resume game logic and unmute audio
+                        break;
+                    case "SDK_READY":
+                        // when sdk is ready
+                        break;
+                }
+            }
+            };
+        (function (a, b, c) {
+            var d = a.getElementsByTagName(b)[0];
+            a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js",a.onload=()=>{
+
+                let scriptElem4 = document.createElement("script");
+                let scriptElem5 = document.createElement("script");
+                let scriptElem6 = document.createElement("script");
+                let scriptElem7 = document.createElement("script");
+                let scriptElem8 = document.createElement("script");
+                let scriptElem9 = document.createElement("script");
+                let scriptElem10 = document.createElement("script");
+                let scriptElem11 = document.createElement("script");
+                let scriptElem12 = document.createElement("script");
+                let scriptElem13 = document.createElement("script");
+                let scriptElem14 = document.createElement("script");
+                let scriptElem15 = document.createElement("script");
+                let scriptElem16 = document.createElement("script");
+                let scriptElem17 = document.createElement("script");
+
+                scriptElem4.setAttribute("src","https://code.jquery.com/jquery-migrate-3.3.2.min.js");
+                scriptElem5.setAttribute("src","js/vendor/detectmobilebrowser.js");
+                scriptElem6.setAttribute("src","js/vendor/createjs.min.js");
+                scriptElem7.setAttribute("src","js/vendor/chess.js");
+                scriptElem8.setAttribute("src","js/vendor/chessboard-1.0.0.min.js");
+                scriptElem9.setAttribute("src","js/vendor/TweenMax.min.js");
+                scriptElem10.setAttribute("src","js/plugins.js");
+                scriptElem11.setAttribute("src","js/sound.js");
+                scriptElem12.setAttribute("src","js/canvas.js");
+                scriptElem13.setAttribute("src","js/game.js");
+                scriptElem14.setAttribute("src","js/mobile.js");
+                scriptElem15.setAttribute("src","js/main.js");
+                scriptElem16.setAttribute("src","js/loader.js");
+                scriptElem17.setAttribute("src","js/init.js");
+
+                document.body.appendChild(scriptElem4);
+                document.body.appendChild(scriptElem5);
+                document.body.appendChild(scriptElem6);
+                document.body.appendChild(scriptElem7);
+                document.body.appendChild(scriptElem8);
+                document.body.appendChild(scriptElem9);
+                document.body.appendChild(scriptElem10);
+                document.body.appendChild(scriptElem11);
+                document.body.appendChild(scriptElem12);
+                document.body.appendChild(scriptElem13);
+                document.body.appendChild(scriptElem14);
+                document.body.appendChild(scriptElem15);
+                document.body.appendChild(scriptElem16);
+                document.body.appendChild(scriptElem17);
+
+            },d.parentNode.insertBefore(a, d))
+        })(document, "script", "gamemonetize-sdk"); 
+        </script>
+
+        <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+       <style>
+            #logoCredit{
+                z-index: 30;
+                float: right;
+                color: white;
+                position: relative;
+                margin: auto;
+                font-family: Arial,Cursive, fantasy,serif,Sans-serif,Monospace!important;  
+
+            }
+            #moreGames{
+                display: none!important;
+                z-index: 30;
+                color: #ffffff;
+                position: relative;
+                font-family: Arial,Cursive, fantasy,serif,Sans-serif,Monospace!important;  
+                border: solid 4px;
+                padding: 16px;
+                border-radius: 68px;
+                width: 60px;
+                height: 45px;
+                text-align: center;
+                font-size: 18px;
+                top: 13px;
+                line-height: 20px;
+                font-weight: 700;
+                transform-origin: top left;
+
+            }
+
+
+            @media only screen and (min-width: 601px) {
+                #logoCredit {
+                    font-size: 15px;
+            }
+            }
+
+            @media only screen and (max-width: 600px) {
+                #logoCredit {
+                    font-size: 11px;
+            }
+            }
+            a {
+                color: #ffffff;
+            }
+       </style>
+    </head>
+    <body>
+ 
+        <!-- PERCENT LOADER START-->
+    	<div id="mainLoader"><img src="assets/loader.png" /><br/><span>0</span></div>
+        <!-- PERCENT LOADER END-->
+        
+        <!-- CONTENT START-->
+        <div id="mainHolder">
+        
+        	<!-- BROWSER NOT SUPPORT START-->
+        	<div id="notSupportHolder">
+                <div class="notSupport">Your browser isn’t supported.<br/>Please update your browser in order to run the game.</div>
+            </div>
+            <!-- BROWSER NOT SUPPORT END-->
+            
+            <!-- CANVAS START-->
+            <div id="canvasHolder">
+                <canvas id="gameCanvas" width="1280" height="768"></canvas>
+            </div>
+            <!-- CANVAS END-->
+            
+            <div id="board" style="display: none;"></div>
+        </div>
+
+        <!-- CONTENT END-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+        
+        <script src="js/vendor/detectmobilebrowser.js"></script>
+        <script src="js/vendor/createjs.min.js"></script>
+		<script src="js/vendor/chess.js"></script>
+		<script src="js/vendor/chessboard-1.0.0.min.js"></script>
+        <script src="js/vendor/TweenMax.min.js"></script>
+		
+        <script src="js/plugins.js"></script>
+        <script src="js/sound.js"></script>
+        <script src="js/canvas.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/mobile.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/loader.js"></script>
+        <script src="js/init.js"></script>
+        
+        <script>
+        function handleResize(event) {
+
+            var idFrame = document.getElementById("moreGames");
+            var idFrameWidth = idFrame.clientWidth;
+            var idFrameHeight = idFrame.clientHeight;
+
+            var calcHeightRateFontSize = (18/768)*window.innerHeight*scalePercent;
+            var calcHeightRateHeight = (45/768)*window.innerHeight*scalePercent;
+            var calcHeightRateWidth = (60/768)*window.innerHeight*scalePercent;
+            var calcHeightRatePadding = (16/768)*window.innerHeight*scalePercent;
+            var calcHeightRateBorder = (4/768)*window.innerHeight*scalePercent;
+            var calcHeightRateLineHeight = (20/768)*window.innerHeight*scalePercent;
+
+            var calcWidthRate = (240/1280)*window.innerWidth*scalePercent;
+            var calcWidthRateFontSize = (18/1280)*window.innerWidth*scalePercent;
+            var calcWidthRateHeight = (45/1280)*window.innerWidth*scalePercent;
+            var calcWidthRateWidth = (60/1280)*window.innerWidth*scalePercent;
+            var calcWidthRatePadding = (16/1280)*window.innerWidth*scalePercent;
+            var calcWidthRateBorder = (4/1280)*window.innerWidth*scalePercent;
+            var calcWidthRateLineHeight = (15/1280)*window.innerWidth*scalePercent;
+    
+            if (offset.left>=0){
+
+                document.getElementById("moreGames").setAttribute('style', `display:block !important`);
+                idFrame.style.transform=`scale(${scalePercent})`
+                idFrame.style.left= (scalePercent*20)+((offset.left)/2)+"px";       
+
+            } else { // go by width 
+
+                document.getElementById("moreGames").setAttribute('style', `display:block !important`);
+                idFrame.style.transform=`scale(${scalePercent})`
+                idFrame.style.left=3+"vh";
+
+            }
+
+            if (offset.top<=0){
+
+                idFrame.style.top= (scalePercent*15)+"px";
+
+            } else {
+
+                idFrame.style.top= (scalePercent*15)+(offset.top)/2+"px";
+            }
+
+        }
+        </script>
+        <!-- <div id="logoCredit">Skilli - <a href="https://skilli.net">Online games</a></div> -->
+        <div id="moreGames">More <a href="https://skilli.net" target="_blank">Games</a></div>
+        <script>
+            handleResize();
+        </script>
+    </body>
+    
+
+  
+</html>

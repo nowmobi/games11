@@ -1,0 +1,113 @@
+{
+  "importBase": "import",
+  "nativeBase": "native",
+  "name": "main",
+  "deps": [
+    "resources"
+  ],
+  "uuids": [
+    "02a734cca",
+    "e0VmGqO+FMvqV3MdI2O5IS",
+    "0bDyvVARdBxZSyDO2rE+yY",
+    "2eidE8iVtC8bDiQgz48iCD",
+    "4esDj4/TpLMrOWK5FfTb3X",
+    "80Bc8mqOZP6bFJkoWeKX/j@f9941",
+    "831yZKWMJMdJDVUjfIB7AI@f9941",
+    "a4h9oXfiJLsZkfarH95Z3+",
+    "b9z9Sv34dJKJlLuqtRHIDd",
+    "b9z9Sv34dJKJlLuqtRHIDd@6c48a",
+    "bbMt0oJBBMp7Tl5fSaas0g",
+    "c5T6iw4CFCyoe9LJupJbMJ",
+    "b9z9Sv34dJKJlLuqtRHIDd@f9941",
+    "baIUdvKGZPgZxNbjWTFuRI",
+    "fdjsU2o1RKF5x0TziDw3jI"
+  ],
+  "paths": {
+    "1": [
+      "db:/assets/scenes/Launcher",
+      0
+    ],
+    "2": [
+      "db:/assets/scenes/Game",
+      0
+    ],
+    "13": [
+      "db:/internal/physics/default-physics-material",
+      2
+    ],
+    "14": [
+      "db:/internal/default_renderpipeline/builtin-forward",
+      1
+    ]
+  },
+  "scenes": {
+    "db://assets/scenes/Game.scene": 2,
+    "db://assets/scenes/Launcher.scene": 1
+  },
+  "packs": {
+    "02a734cca": [
+      "12",
+      "1"
+    ]
+  },
+  "versions": {
+    "import": [],
+    "native": []
+  },
+  "redirect": [
+    3,
+    "0",
+    4,
+    "0",
+    5,
+    "0",
+    6,
+    "0",
+    7,
+    "0",
+    10,
+    "0",
+    11,
+    "0",
+    3,
+    "0",
+    4,
+    "0",
+    5,
+    "0",
+    6,
+    "0",
+    7,
+    "0",
+    10,
+    "0",
+    11,
+    "0"
+  ],
+  "debug": false,
+  "extensionMap": {},
+  "hasPreloadScript": true,
+  "dependencyRelationships": {
+    "1": [
+      "10",
+      "4",
+      "5",
+      "12",
+      "6",
+      "7",
+      "3",
+      "11"
+    ],
+    "9": [
+      "8"
+    ],
+    "12": [
+      "9"
+    ]
+  },
+  "types": [
+    "cc.SceneAsset",
+    "cc.RenderPipeline",
+    "cc.PhysicsMaterial"
+  ]
+}

@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-desktop",groupList:["default","risk","line"],collisionMatrix:[[true,true,true],[true,true],[true,false,true]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/main/Health.fire",orientation:"",jsList:[]};

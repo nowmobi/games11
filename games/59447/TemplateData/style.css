@@ -1,0 +1,140 @@
+.webgl-content * {border: 0; margin: 0; padding: 0}
+.webgl-content {top: 0; left: 0;}
+
+.webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+.webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
+.webgl-content .progress .empty {background: url('progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+.webgl-content .progress .full {background: url('progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+
+.webgl-content .logo.Dark {background-image: url('progressLogo.Dark.png');}
+.webgl-content .progress.Dark .empty {background-image: url('progressEmpty.Dark.png');}
+.webgl-content .progress.Dark .full {background-image: url('progressFull.Dark.png');}
+
+.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;} 
+.webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;} 
+.webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
+.webgl-content .footer .title {margin-right: 10px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+#gameContainer canvas{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left:50%;
+
+}
+
+.simmer{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    color:#aaa;
+    font-size:9px;
+    font-family:sans-serif;
+    font-family:sans-serif;
+
+    /*want to remove the simmer branding? uncomment display:none below!*/
+    /*display:none;*/
+}
+
+.simmer a{
+    color:#cccccc;
+    text-decoration:none;
+    font-size:12px;
+    transition:opacity 3s;
+
+}
+
+.simmer a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+
+.simmer.hide {
+    opacity:0;
+}
+
+
+/* General styles for the loading container */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000; /* Optional: Add a background */
+}
+
+/* Rotating 3D text */
+.rotating-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  animation: rotateText 3s linear infinite;
+  perspective: 1000px;
+}
+
+/* Fading dots */
+.fading-dots {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.fading-dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: fadeDots 1.5s infinite;
+}
+
+.fading-dots .dot-0 {
+  animation-delay: 0s;
+}
+
+.fading-dots .dot-1 {
+  animation-delay: 0.3s;
+}
+
+.fading-dots .dot-2 {
+  animation-delay: 0.6s;
+}
+
+.fading-dots .dot-3 {
+  animation-delay: 0.9s;
+}
+
+.fading-dots .dot-4 {
+  animation-delay: 1.2s;
+}
+
+/* Animations */
+@keyframes rotateText {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes fadeDots {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,1529 @@
+[
+  1,
+  [
+    "e2jrEiuEtJfLKN6+bUHdjY@f9941",
+    "20g1ukYUVPvKWKBRznAKo+@f9941",
+    "54TknWPwVPqJqeCR+Y/Czo@f9941",
+    "95EkngnxZFbYuFpsqVTaFr@f9941",
+    "b5XKqLmUNI9oIZdus9Bt/b@f9941",
+    "20g1ukYUVPvKWKBRznAKo+@6c48a",
+    "54TknWPwVPqJqeCR+Y/Czo@6c48a",
+    "7dj5uJT9FMn6OrOOx83tfK@6c48a",
+    "95EkngnxZFbYuFpsqVTaFr@6c48a",
+    "7dj5uJT9FMn6OrOOx83tfK@f9941",
+    "7eV8ATlOJFVaqvzitj1Ysg@f9941",
+    "e2jrEiuEtJfLKN6+bUHdjY@6c48a"
+  ],
+  [
+    "node",
+    "_textureSource",
+    "_spriteFrame",
+    "_target",
+    "_normalSprite",
+    "_hoverSprite",
+    "_pressedSprite",
+    "_disabledSprite",
+    "root",
+    "data",
+    "_parent"
+  ],
+  [
+    [
+      "cc.Node",
+      [
+        "_name",
+        "_layer",
+        "_objFlags",
+        "_components",
+        "_prefab",
+        "_children",
+        "_parent",
+        "_lpos"
+      ],
+      0,
+      9,
+      4,
+      2,
+      1,
+      5
+    ],
+    "cc.SpriteFrame",
+    [
+      "cc.Widget",
+      [
+        "_alignFlags",
+        "_originalWidth",
+        "_originalHeight",
+        "_bottom",
+        "_left",
+        "_right",
+        "_top",
+        "node",
+        "__prefab"
+      ],
+      -4,
+      1,
+      4
+    ],
+    [
+      "cc.Sprite",
+      [
+        "_sizeMode",
+        "_type",
+        "node",
+        "__prefab",
+        "_spriteFrame",
+        "_color"
+      ],
+      1,
+      1,
+      4,
+      6,
+      5
+    ],
+    [
+      "cc.Label",
+      [
+        "_string",
+        "_actualFontSize",
+        "_fontSize",
+        "_overflow",
+        "_isBold",
+        "_enableWrapText",
+        "node",
+        "__prefab",
+        "_color"
+      ],
+      -3,
+      1,
+      4,
+      5
+    ],
+    [
+      "cc.Prefab",
+      [
+        "_name"
+      ],
+      2
+    ],
+    [
+      "cc.UITransform",
+      [
+        "node",
+        "__prefab",
+        "_contentSize"
+      ],
+      3,
+      1,
+      4,
+      5
+    ],
+    [
+      "cc.CompPrefabInfo",
+      [
+        "fileId"
+      ],
+      2
+    ],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "instance",
+        "targetOverrides",
+        "nestedPrefabInstanceRoots",
+        "root",
+        "asset"
+      ],
+      -1,
+      1,
+      1
+    ],
+    [
+      "cc.Layout",
+      [
+        "_resizeMode",
+        "_layoutType",
+        "_paddingLeft",
+        "_paddingRight",
+        "_spacingX",
+        "node",
+        "__prefab"
+      ],
+      -2,
+      1,
+      4
+    ],
+    [
+      "cc.Button",
+      [
+        "_transition",
+        "node",
+        "__prefab",
+        "_normalColor",
+        "_target",
+        "_normalSprite",
+        "_hoverSprite",
+        "_pressedSprite",
+        "_disabledSprite"
+      ],
+      2,
+      1,
+      4,
+      5,
+      1,
+      6,
+      6,
+      6,
+      6
+    ]
+  ],
+  [
+    [
+      7,
+      0,
+      2
+    ],
+    [
+      6,
+      0,
+      1,
+      2,
+      1
+    ],
+    [
+      8,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5
+    ],
+    [
+      3,
+      1,
+      0,
+      2,
+      3,
+      4,
+      3
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      5,
+      3,
+      4,
+      7,
+      3
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      3,
+      4,
+      3
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      6,
+      3,
+      4,
+      4
+    ],
+    [
+      2,
+      0,
+      1,
+      2,
+      7,
+      8,
+      4
+    ],
+    [
+      10,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      2
+    ],
+    [
+      4,
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      6
+    ],
+    [
+      5,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      5,
+      3,
+      4,
+      3
+    ],
+    [
+      0,
+      0,
+      1,
+      5,
+      3,
+      4,
+      7,
+      3
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      5,
+      3,
+      4,
+      3
+    ],
+    [
+      2,
+      0,
+      3,
+      1,
+      7,
+      8,
+      4
+    ],
+    [
+      2,
+      0,
+      4,
+      5,
+      6,
+      3,
+      1,
+      2,
+      7,
+      8,
+      8
+    ],
+    [
+      9,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      6
+    ],
+    [
+      3,
+      0,
+      2,
+      3,
+      5,
+      4,
+      2
+    ],
+    [
+      4,
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      6
+    ]
+  ],
+  [
+    [
+      [
+        {
+          "name": "default_btn_normal",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 40,
+            "height": 40
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 40,
+            "height": 40
+          },
+          "rotated": false,
+          "capInsets": [
+            12,
+            12,
+            12,
+            12
+          ],
+          "vertices": {
+            "rawPosition": [
+              -20,
+              -20,
+              0,
+              20,
+              -20,
+              0,
+              -20,
+              20,
+              0,
+              20,
+              20,
+              0
+            ],
+            "indexes": [
+              0,
+              1,
+              2,
+              2,
+              1,
+              3
+            ],
+            "uv": [
+              0,
+              40,
+              40,
+              40,
+              0,
+              0,
+              40,
+              0
+            ],
+            "nuv": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "minPos": {
+              "x": -20,
+              "y": -20,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 20,
+              "y": 20,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [
+        1
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        5
+      ]
+    ],
+    [
+      [
+        {
+          "name": "default_btn_pressed",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 40,
+            "height": 40
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 40,
+            "height": 40
+          },
+          "rotated": false,
+          "capInsets": [
+            12,
+            12,
+            12,
+            12
+          ],
+          "vertices": {
+            "rawPosition": [
+              -20,
+              -20,
+              0,
+              20,
+              -20,
+              0,
+              -20,
+              20,
+              0,
+              20,
+              20,
+              0
+            ],
+            "indexes": [
+              0,
+              1,
+              2,
+              2,
+              1,
+              3
+            ],
+            "uv": [
+              0,
+              40,
+              40,
+              40,
+              0,
+              0,
+              40,
+              0
+            ],
+            "nuv": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "minPos": {
+              "x": -20,
+              "y": -20,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 20,
+              "y": 20,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [
+        1
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        6
+      ]
+    ],
+    [
+      [
+        {
+          "name": "default_sprite_splash",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 2
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 2,
+            "height": 2
+          },
+          "rotated": false,
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "vertices": {
+            "rawPosition": [
+              -1,
+              -1,
+              0,
+              1,
+              -1,
+              0,
+              -1,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "indexes": [
+              0,
+              1,
+              2,
+              2,
+              1,
+              3
+            ],
+            "uv": [
+              0,
+              2,
+              2,
+              2,
+              0,
+              0,
+              2,
+              0
+            ],
+            "nuv": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "minPos": {
+              "x": -1,
+              "y": -1,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 1,
+              "y": 1,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [
+        1
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        7
+      ]
+    ],
+    [
+      [
+        {
+          "name": "default_btn_disabled",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 40,
+            "height": 40
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 40,
+            "height": 40
+          },
+          "rotated": false,
+          "capInsets": [
+            12,
+            12,
+            12,
+            12
+          ],
+          "vertices": {
+            "rawPosition": [
+              -20,
+              -20,
+              0,
+              20,
+              -20,
+              0,
+              -20,
+              20,
+              0,
+              20,
+              20,
+              0
+            ],
+            "indexes": [
+              0,
+              1,
+              2,
+              2,
+              1,
+              3
+            ],
+            "uv": [
+              0,
+              40,
+              40,
+              40,
+              0,
+              0,
+              40,
+              0
+            ],
+            "nuv": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "minPos": {
+              "x": -20,
+              "y": -20,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 20,
+              "y": 20,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [
+        1
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        8
+      ]
+    ],
+    [
+      [
+        [
+          10,
+          "Popup"
+        ],
+        [
+          11,
+          "Popup",
+          33554432,
+          [
+            -4,
+            -5
+          ],
+          [
+            [
+              1,
+              -2,
+              [
+                0,
+                "189tWGhkZJF4bQ3p2MOi0r"
+              ],
+              [
+                5,
+                720,
+                1280
+              ]
+            ],
+            [
+              7,
+              45,
+              100,
+              100,
+              -3,
+              [
+                0,
+                "5altfIlKlMYLUARyr7OS6T"
+              ]
+            ]
+          ],
+          [
+            2,
+            "6f/UQ7Uu5AyrnqxCewpC3B",
+            null,
+            null,
+            null,
+            -1,
+            0
+          ]
+        ],
+        [
+          12,
+          "btns",
+          33554432,
+          [
+            -9,
+            -10
+          ],
+          [
+            [
+              1,
+              -6,
+              [
+                0,
+                "a3Trd3ayNNRpCyW8ZVTO4W"
+              ],
+              [
+                5,
+                500,
+                80
+              ]
+            ],
+            [
+              14,
+              44,
+              -40,
+              100,
+              -7,
+              [
+                0,
+                "1eil2y9s1Pkq53UKx9mQvD"
+              ]
+            ],
+            [
+              16,
+              2,
+              1,
+              50,
+              50,
+              50,
+              -8,
+              [
+                0,
+                "11lW5X90dGf4RHT94+Iacu"
+              ]
+            ]
+          ],
+          [
+            2,
+            "6dkd6s3vtI3Ii1ZPS1pcnT",
+            null,
+            null,
+            null,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            -150,
+            0
+          ]
+        ],
+        [
+          4,
+          "cancel",
+          33554432,
+          2,
+          [
+            -15
+          ],
+          [
+            [
+              1,
+              -11,
+              [
+                0,
+                "5cIFKa2+xKeZObRduq7lxK"
+              ],
+              [
+                5,
+                175,
+                70
+              ]
+            ],
+            [
+              3,
+              1,
+              0,
+              -12,
+              [
+                0,
+                "df+e0F3NNM7KaxyXO/O2Jj"
+              ],
+              1
+            ],
+            [
+              8,
+              3,
+              -14,
+              [
+                0,
+                "822R//579HZJh2Qa4Qf/i+"
+              ],
+              [
+                4,
+                4292269782
+              ],
+              -13,
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          [
+            2,
+            "23p0WbpFNI95Y3gvJvEIoh",
+            null,
+            null,
+            null,
+            1,
+            0
+          ],
+          [
+            1,
+            -112.5,
+            0,
+            0
+          ]
+        ],
+        [
+          4,
+          "confirm",
+          33554432,
+          2,
+          [
+            -20
+          ],
+          [
+            [
+              1,
+              -16,
+              [
+                0,
+                "cb8Qxr+OtAfIoXvlbyXw/Y"
+              ],
+              [
+                5,
+                175,
+                70
+              ]
+            ],
+            [
+              3,
+              1,
+              0,
+              -17,
+              [
+                0,
+                "a6un2LqGtMR4Y5S9820nKc"
+              ],
+              6
+            ],
+            [
+              8,
+              3,
+              -19,
+              [
+                0,
+                "87OUqXMwJAs6sfuIWvF8if"
+              ],
+              [
+                4,
+                4292269782
+              ],
+              -18,
+              7,
+              8,
+              9,
+              10
+            ]
+          ],
+          [
+            2,
+            "6f0lqX2UBJy6/ZQOMrUtmO",
+            null,
+            null,
+            null,
+            1,
+            0
+          ],
+          [
+            1,
+            112.5,
+            0,
+            0
+          ]
+        ],
+        [
+          13,
+          "popup",
+          33554432,
+          1,
+          [
+            2,
+            -23
+          ],
+          [
+            [
+              1,
+              -21,
+              [
+                0,
+                "63fnKE6NpODoOQtdvYR+YQ"
+              ],
+              [
+                5,
+                500,
+                300
+              ]
+            ],
+            [
+              3,
+              1,
+              0,
+              -22,
+              [
+                0,
+                "34yOhKQiZMh7S4OtUWwfC1"
+              ],
+              11
+            ]
+          ],
+          [
+            2,
+            "84gb6e3OBL8b5Rht5fqLjA",
+            null,
+            null,
+            null,
+            1,
+            0
+          ]
+        ],
+        [
+          5,
+          "mask",
+          33554432,
+          1,
+          [
+            [
+              1,
+              -24,
+              [
+                0,
+                "5asx3W+ohCAbfFW5IyDUv6"
+              ],
+              [
+                5,
+                720,
+                1280
+              ]
+            ],
+            [
+              17,
+              0,
+              -25,
+              [
+                0,
+                "6agpaKthNK2IDzLY/jKmle"
+              ],
+              [
+                4,
+                1996488704
+              ],
+              0
+            ],
+            [
+              7,
+              45,
+              100,
+              100,
+              -26,
+              [
+                0,
+                "52Atz/ljVAap5xcMMphkdM"
+              ]
+            ]
+          ],
+          [
+            2,
+            "78HQDHQENIdZQQVeKU8jnz",
+            null,
+            null,
+            null,
+            1,
+            0
+          ]
+        ],
+        [
+          5,
+          "message",
+          33554432,
+          5,
+          [
+            [
+              1,
+              -27,
+              [
+                0,
+                "35QEyxnURHm4+BioY39ZQ0"
+              ],
+              [
+                5,
+                400,
+                200
+              ]
+            ],
+            [
+              18,
+              "",
+              31,
+              30,
+              2,
+              true,
+              -28,
+              [
+                0,
+                "advNLCkIxE/q7lINpFW9Gw"
+              ],
+              [
+                4,
+                4281545523
+              ]
+            ],
+            [
+              15,
+              45,
+              50,
+              50,
+              50,
+              50,
+              42.255859375,
+              50.4,
+              -29,
+              [
+                0,
+                "e5Mx1inZVEe6DHKt7YmeZ7"
+              ]
+            ]
+          ],
+          [
+            2,
+            "29XPeGIuBFBKRVLZZpkP9j",
+            null,
+            null,
+            null,
+            1,
+            0
+          ]
+        ],
+        [
+          6,
+          "Label",
+          512,
+          33554432,
+          3,
+          [
+            [
+              1,
+              -30,
+              [
+                0,
+                "14SLJ6lYhIuphnTUbo3KAX"
+              ],
+              [
+                5,
+                100,
+                40
+              ]
+            ],
+            [
+              9,
+              "Cancel",
+              20,
+              20,
+              1,
+              false,
+              -31,
+              [
+                0,
+                "b1E30Q1itN0ZTzJ293KB75"
+              ]
+            ]
+          ],
+          [
+            2,
+            "d9tP2DdiFG5JlSjT6C2Od/",
+            null,
+            null,
+            null,
+            1,
+            0
+          ]
+        ],
+        [
+          6,
+          "Label",
+          512,
+          33554432,
+          4,
+          [
+            [
+              1,
+              -32,
+              [
+                0,
+                "77KCORiI9KKpOV441Iv9AJ"
+              ],
+              [
+                5,
+                100,
+                40
+              ]
+            ],
+            [
+              9,
+              "Confirm",
+              20,
+              20,
+              1,
+              false,
+              -33,
+              [
+                0,
+                "9dlQ0OyY5ODbw5d8/ElAm3"
+              ]
+            ]
+          ],
+          [
+            2,
+            "4bKWk31I9I6LD9MqJMfnDc",
+            null,
+            null,
+            null,
+            1,
+            0
+          ]
+        ]
+      ],
+      0,
+      [
+        0,
+        8,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        6,
+        0,
+        -2,
+        5,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        -1,
+        3,
+        0,
+        -2,
+        4,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        3,
+        3,
+        0,
+        0,
+        3,
+        0,
+        -1,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        3,
+        4,
+        0,
+        0,
+        4,
+        0,
+        -1,
+        9,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        -2,
+        7,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        7,
+        0,
+        0,
+        7,
+        0,
+        0,
+        7,
+        0,
+        0,
+        8,
+        0,
+        0,
+        8,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        9,
+        1,
+        2,
+        10,
+        5,
+        33
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        4,
+        5,
+        6,
+        7,
+        2,
+        4,
+        5,
+        6,
+        7,
+        2
+      ],
+      [
+        9,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        4,
+        1,
+        2,
+        3,
+        10
+      ]
+    ],
+    [
+      [
+        {
+          "name": "b_4",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 64,
+            "height": 64
+          },
+          "rotated": false,
+          "capInsets": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "vertices": {
+            "rawPosition": [
+              -32,
+              -32,
+              0,
+              32,
+              -32,
+              0,
+              -32,
+              32,
+              0,
+              32,
+              32,
+              0
+            ],
+            "indexes": [
+              0,
+              1,
+              2,
+              2,
+              1,
+              3
+            ],
+            "uv": [
+              0,
+              64,
+              64,
+              64,
+              0,
+              0,
+              64,
+              0
+            ],
+            "nuv": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "minPos": {
+              "x": -32,
+              "y": -32,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 32,
+              "y": 32,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [
+        1
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        11
+      ]
+    ]
+  ]
+]

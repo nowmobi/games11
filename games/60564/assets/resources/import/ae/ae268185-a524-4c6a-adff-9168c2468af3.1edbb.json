@@ -1,0 +1,35 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.TextAsset",
+      [
+        "_name",
+        "text"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "Skin",
+      "编号\t名称\t类型（1：女 2：男 3：装饰）\t子类（0:头发，1：头饰 2：上身 3：下身 4：物品 5：主题 6：钥匙）\t解锁条件1（关卡）\t解锁条件2（星星数）\t对应资源\t缩略图\t解锁类型(1:关卡，2星星，3看视频, 4默认)\t数据\r\nid\tname\ttype\tsubType\tunlock1\tunlock2\tres\tthumbnail\tunlockType\tdata\r\nint\tstring\tint\tint\tint\tint\tstring\tstring\tint\tint\r\n1\tBrown perm\t1\t0\t\t\ttoufa:0\ttoufa\t4\t\r\n2\tBlonde perm\t1\t0\t\t54\ttoufa:2\ttoufa2\t2\t\r\n3\tbrown perm\t1\t0\t\t155\ttoufa:1\ttoufa1\t2\t\r\n4\tblonde hair\t1\t0\t\t255\ttoufa:3\ttoufa3\t2\t\r\n5\thatless\t1\t1\t\t\tmaozi:-1\tmeiyoumaozi\t4\t\r\n6\tLady hat\t1\t1\t35\t\tmaozi:0\tmaozi1\t1\t\r\n7\tcap\t1\t1\t\t\tmaozi:1\tmaozi2\t3\t\r\n8\tKorean cowl\t1\t1\t\t\tmaozi:2\tmaozi3\t3\t\r\n9\tRed sweater\t1\t2\t\t\tbody:0/r_arm:0/r_l_arm:0\tyifu\t4\t\r\n10\tFashion jacket\t1\t2\t\t24\tbody:1/r_arm:1/r_l_arm:1\tyifu4\t2\t\r\n11\tWomen's trench coat\t1\t2\t\t80\tbody:2/r_arm:2/r_l_arm:2\tyifu3\t2\t\r\n12\tGold blouse\t1\t2\t\t\tbody:3/r_arm:3/r_l_arm:3\tyifu2\t3\t\r\n13\tLight blue pants\t1\t2\t\t\tbody:4/r_arm:4/r_l_arm:4\tyifu1\t3\t\r\n14\tFashion pants\t1\t3\t\t\tl_feet:0/r_feet:0/l_u_leg:0/l_l_leg:0/r_u_leg:0/r_l_leg:0\txiashen\t4\t\r\n15\tjeans\t1\t3\t\t100\tl_feet:4/r_feet:4/l_u_leg:1/l_l_leg:1/r_u_leg:1/r_l_leg:1\txiashen4\t2\t\r\n16\tBlack shorts\t1\t3\t\t400\tl_feet:3/r_feet:3/l_u_leg:2/l_l_leg:2/r_u_leg:2/r_l_leg:2\txiashen3\t2\t\r\n17\tSmall orange bun\t1\t3\t\t\tl_feet:2/r_feet:2/l_u_leg:3/l_l_leg:3/r_u_leg:3/r_l_leg:3\txiashen2\t3\t\r\n18\tLove bag\t1\t3\t\t\tl_feet:1/r_feet:1/l_u_leg:4/l_l_leg:3/r_u_leg:4/r_l_leg:3\txiashen1\t3\t\r\n19\tFashion pack\t1\t4\t\t\tbao:0\tbao\t4\t\r\n20\thairlessness\t1\t4\t5\t\tbao:1\tbaobao1\t1\t\r\n21\tnose\t1\t4\t\t\tbao:2\tbaobao2\t3\t\r\n22\tShort brown hair\t1\t4\t\t\tbao:3\tbaobao3\t3\t\r\n23\tMidlife short hair\t2\t0\t\t\thair:-1\ttoufa\t4\t\r\n24\tnose\t2\t0\t\t75\thair:0\ttoufa1\t2\t\r\n25\tBrown short hair\t2\t0\t\t135\thair:1\ttoufa2\t2\t\r\n26\tMidlife short hair\t2\t0\t\t240\thair:2\ttoufa3\t2\t\r\n27\tno hat\t2\t1\t\t\that:-1\tmeiyoumaozi\t4\t\r\n28\tJazz hat\t2\t1\t50\t\that:0\tmaozi1\t1\t\r\n29\tDetective hat\t2\t1\t\t\that:1\tmaozi2\t3\t\r\n30\tGentleman hat\t2\t1\t\t\that:2\tmaozi3\t3\t\r\n31\tBrown sweater\t2\t2\t\t\tbody:0/r_u_arm:0/r_l_arm:0/l_arm:0\tshangshen\t4\t\r\n32\tTraditional suit\t2\t2\t\t35\tbody:1/r_u_arm:1/r_l_arm:1/l_arm:1\tshangshen1\t2\t\r\n33\tBlue sweater\t2\t2\t\t\tbody:2/r_u_arm:2/r_l_arm:2/l_arm:2\tshangshen2\t3\t\r\n34\tFashion hoodie\t2\t2\t\t\tbody:3/r_u_arm:3/r_l_arm:3/l_arm:3\tshangshen3\t3\t\r\n35\tBlue pants\t2\t3\t\t\tlegs:0/l_feet:0/r_feet:0\txiashen\t4\t\r\n36\tDark pants\t2\t3\t\t160\tlegs:1/l_feet:1/r_feet:1\txiashen1\t2\t\r\n37\tCasual shorts\t2\t3\t\t380\tlegs:2/l_feet:2/r_feet:2\txiashen2\t2\t\r\n38\tGrey trousers\t2\t3\t\t\tlegs:3/l_feet:3/r_feet:3\txiashen3\t3\t\r\n39\tRose\t2\t4\t\t\tflower:0\thua\t4\t\r\n40\ttulip\t2\t4\t15\t\tflower:1\thua3\t1\t\r\n41\tSunflower\t2\t4\t\t\tflower:2\thua2\t3\t\r\n42\tcarnation\t2\t4\t\t\tflower:3\thua1\t3\t\r\n43\tWind fantasy\t3\t5\t\t\t\tzhuti_1\t4\t1\r\n44\tQuiet night\t3\t5\t10\t\t\tzhuti_2\t1\t2\r\n45\tDesert style\t3\t5\t30\t\t\tzhuti_3\t1\t3\r\n46\tSummer lotus pond\t3\t5\t60\t\t\tzhuti_4\t1\t4\r\n47\tGold key\t3\t6\t\t\t\tyaoshi6\t4\t1\r\n48\tKey to Star\t3\t6\t20\t\t\tyaoshi1\t1\t2\r\n49\tThe Key to Dazzle\t3\t6\t40\t\t\tyaoshi2\t1\t3\r\n50\tIce sweet key\t3\t6\t\t\t\tyaoshi3\t3\t4\r\n51\tKey of Wind\t3\t6\t\t\t\tyaoshi4\t3\t5\r\n52\tLotus key\t3\t6\t\t\t\tyaoshi5\t3\t6"
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

@@ -1,0 +1,35 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.TextAsset",
+      [
+        "_name",
+        "text"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "Prop",
+      "编号\t道具名\t说明文本\t图片\r\nid\tname\tdesc\ticon\r\nint\tstring\tstring\tstring\r\n1\tElectric gun\tEmit electromagnetic and destroy enemies on the same floor\tImg/main/gun\r\n2\tFrozen\tThrow snowballs to freeze all enemies for ten seconds\tImg/main/daoju_xuehua\r\n3\tmagnet\tImmediately absorb all the stars in the room\tImg/main/daoju_citie"
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

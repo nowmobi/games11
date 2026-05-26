@@ -1,0 +1,22 @@
+{
+  "id": "60785",
+  "title": "Merge the Balls 2048: Billiards!",
+  "slug": "merge-the-balls-2048-billiards",
+  "description": "This game is in the style of the classic 2048. Your task is to connect balls with the same color and numbers! Which fall on the playing field, until you manage to get the highest score! Balls are connected if they have the same color and the same numbers! The difficulty is that the balls will be attracted to each other and if they cross the white line, the game will start over! Become the first on the leaderboard! Show your record to your friends and colleagues to surprise them! Fight for first place on the leaderboard and prove that you are the winner!",
+  "instructions": "1 At first it will be easy to connect the balls but over time there will be more and more of them ",
+  "url": "https://html5.gamemonetize.com/z3l5z7xhk5hy4vycxpyf9sw9uddweel0/",
+  "category": "Puzzle",
+  "categorySlug": "puzzle",
+  "tags": [
+    "2048",
+    "2D",
+    "Ball",
+    "Brain",
+    "Logical"
+  ],
+  "thumb": "https://img.gamemonetize.com/z3l5z7xhk5hy4vycxpyf9sw9uddweel0/512x384.jpg",
+  "width": 800,
+  "height": 600,
+  "publisher": null,
+  "crawledAt": "2026-01-31T16:19:44.516Z"
+}

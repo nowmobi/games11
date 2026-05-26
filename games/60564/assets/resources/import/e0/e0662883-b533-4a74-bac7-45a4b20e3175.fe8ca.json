@@ -1,0 +1,35 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.TextAsset",
+      [
+        "_name",
+        "text"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "turntable",
+      "编号\t类型(1:再转一次2:Life3:Gift4:Electric gun5:Defined skin6:冻结7:磁铁)\t内容\t数量\t文本\t概率\t缩略图\r\nid\ttype\tcontent\tnum\ttext\tchance\tthumbnail\r\nint\tint\tstring\tint\tstring\tint\tstring\r\n1\t2\tLife\t5\tLife x 5\t0.12\ticon/tili\r\n2\t3\tGift\t1\tGift x 1\t0.1\ticon/itembox\r\n3\t2\tLife\t3\tLife x 3\t0.32\ticon/tili\r\n4\t4\tElectric gun\t2\tElectric gun x 2\t0.1\tmain/gun\r\n5\t5\tDefined skin\t1\tDefined skin x 1\t0.06\ticon/pifu\r\n6\t6\tFrozen\t2\tFrozen x 2\t0.1\tmain/daoju_xuehua\r\n7\t1\tTurn again\t1\tTurn again\t0.1\ticon/zailaiyici\r\n8\t7\tmagnet\t2\tmagnet x 2\t0.1\tingame/magnet\r\n"
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
