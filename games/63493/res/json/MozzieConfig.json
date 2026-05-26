@@ -1,0 +1,32 @@
+[
+  {
+    "ID": 1,
+    "skillspeed": 0.2,
+    "soundpr": 15,
+    "hp": 100
+  },
+  {
+    "ID": 2,
+    "skillspeed": 0.18,
+    "soundpr": 10,
+    "hp": 100
+  },
+  {
+    "ID": 3,
+    "skillspeed": 0.22,
+    "soundpr": 20,
+    "hp": 100
+  },
+  {
+    "ID": 4,
+    "skillspeed": 0.15,
+    "soundpr": 8,
+    "hp": 100
+  },
+  {
+    "ID": 5,
+    "skillspeed": 0.4,
+    "soundpr": 15,
+    "hp": 100
+  }
+]

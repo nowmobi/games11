@@ -1,0 +1,13 @@
+{
+  "1": "sound/bgm.mp3",
+  "2": "sound/wheel_start.mp3",
+  "3": "sound/wheel_end.mp3",
+  "4": "sound/click_ui.mp3",
+  "5": "sound/xiangji.mp3",
+  "6": "sound/Diamond_Collect.mp3",
+  "7": "sound/Key_Collect.mp3",
+  "8": "sound/win.mp3",
+  "9": "sound/itemMove.mp3",
+  "10": "sound/itemDrop.mp3",
+  "11": "sound/full.mp3"
+}

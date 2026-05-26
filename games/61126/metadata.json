@@ -1,0 +1,23 @@
+{
+  "id": "61126",
+  "title": "2048 Cubes",
+  "slug": "2048-cubes",
+  "description": "Endless 2048 game with a twist, blocks with physics. Blocks will colliide and bounce after collision. Drop and merge same numbers to reach higher numbers.",
+  "instructions": "Swipe right and left to move the block and release to drop Merge blocks with same number to get a bigger block Increase your score with more blocks Game ends when the board fills up to the dashed line ",
+  "url": "https://html5.gamemonetize.com/vfkef0h65ixool4c1mldayie4t74nmud/",
+  "category": "Puzzle",
+  "categorySlug": "puzzle",
+  "tags": [
+    "1 Player",
+    "2048",
+    "Educational",
+    "endless",
+    "Mobile",
+    "Physics"
+  ],
+  "thumb": "https://img.gamemonetize.com/vfkef0h65ixool4c1mldayie4t74nmud/512x384.jpg",
+  "width": 800,
+  "height": 600,
+  "publisher": null,
+  "crawledAt": "2026-01-31T17:07:41.359Z"
+}

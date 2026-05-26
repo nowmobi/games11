@@ -1,0 +1,37 @@
+[
+  {
+    "ID": 1,
+    "upspeed": 1,
+    "uppr": 0.5,
+    "uphp": 10,
+    "max": 10
+  },
+  {
+    "ID": 2,
+    "upspeed": 1,
+    "uppr": 0.5,
+    "uphp": 100,
+    "max": 10
+  },
+  {
+    "ID": 3,
+    "upspeed": 1,
+    "uppr": 0.5,
+    "uphp": 10,
+    "max": 10
+  },
+  {
+    "ID": 4,
+    "upspeed": 1,
+    "uppr": 0.5,
+    "uphp": 10,
+    "max": 10
+  },
+  {
+    "ID": 5,
+    "upspeed": 1,
+    "uppr": 0.5,
+    "uphp": 10,
+    "max": 10
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "Level1": {
+    "id": "Level1",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level2": {
+    "id": "Level2",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level3": {
+    "id": "Level3",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level4": {
+    "id": "Level4",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level5": {
+    "id": "Level5",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level6": {
+    "id": "Level6",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level7": {
+    "id": "Level7",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level8": {
+    "id": "Level8",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level9": {
+    "id": "Level9",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level10": {
+    "id": "Level10",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  },
+  "Level11": {
+    "id": "Level11",
+    "tips": "",
+    "time": 180,
+    "revive": 180
+  }
+}

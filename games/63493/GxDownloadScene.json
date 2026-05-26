@@ -1,0 +1,24 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 1280,
+    "runtime": "gxcore/script/scene/GxDownloadScene.ts",
+    "height": 720
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Label",
+      "props": {
+        "text": "资源加载中...",
+        "fontSize": 40,
+        "color": "#ffffff",
+        "centerY": -20,
+        "centerX": 0
+      },
+      "compId": 3
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

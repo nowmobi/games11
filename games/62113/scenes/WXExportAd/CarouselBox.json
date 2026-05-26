@@ -1,0 +1,126 @@
+{
+  "type": "Box",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 145,
+    "var": "CarouselBox",
+    "presetID": 1,
+    "name": "CarouselBox",
+    "isPresetRoot": true,
+    "height": 176,
+    "anchorY": 0.5,
+    "anchorX": 0.5
+  },
+  "compId": 114,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 145,
+        "skin": "res/popularizeRes/moreGame_11.png",
+        "sizeGrid": "27,28,32,26",
+        "presetID": 2,
+        "height": 176,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 118
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 74,
+        "width": 136,
+        "skin": "res/popularizeRes/moreGame_11.png",
+        "presetID": 3,
+        "name": "iconBg",
+        "height": 141,
+        "centerX": 0,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 115,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "y": 68,
+            "width": 136,
+            "skin": "res/popularizeRes/img_gameIconMask.png",
+            "presetID": 4,
+            "name": "gameIcon",
+            "height": 136,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 116,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 0,
+                "x": 0,
+                "width": 136,
+                "skin": "res/popularizeRes/caijian.png",
+                "renderType": "mask",
+                "presetID": 5,
+                "height": 136
+              },
+              "compId": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 157,
+        "x": 72,
+        "text": "111",
+        "presetID": 6,
+        "name": "gameName",
+        "fontSize": 20,
+        "bold": true,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 119
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 22,
+        "x": 109,
+        "width": 65,
+        "visible": false,
+        "skin": "res/popularizeRes/moreGame_3.png",
+        "scaleY": 0.8,
+        "scaleX": 0.8,
+        "presetID": 8,
+        "name": "hotImg",
+        "height": 36,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 137
+    },
+    {
+      "type": "Script",
+      "props": {
+        "presetID": 9,
+        "runtime": "modules/WXExportAd/CarouselScript.ts"
+      },
+      "compId": 138
+    }
+  ],
+  "loadList": [
+    "res/popularizeRes/moreGame_11.png",
+    "res/popularizeRes/img_gameIconMask.png",
+    "res/popularizeRes/caijian.png",
+    "res/popularizeRes/moreGame_3.png"
+  ],
+  "loadList3D": []
+}

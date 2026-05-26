@@ -1,0 +1,82 @@
+{
+  "10001": {
+    "id": 10001,
+    "icon": "res/carIcon/Car1.png",
+    "model": "res3d/Car1.lh",
+    "unlock": {
+      "way": 999
+    }
+  },
+  "10002": {
+    "id": 10002,
+    "icon": "res/carIcon/Car2.png",
+    "model": "res3d/Car2.lh",
+    "unlock": {
+      "way": 1,
+      "num": 100
+    }
+  },
+  "10003": {
+    "id": 10003,
+    "icon": "res/carIcon/Car3.png",
+    "model": "res3d/Car3.lh",
+    "unlock": {
+      "way": 1,
+      "num": 100
+    }
+  },
+  "10004": {
+    "id": 10004,
+    "icon": "res/carIcon/Car4.png",
+    "model": "res3d/Car4.lh",
+    "unlock": {
+      "way": 1,
+      "num": 200
+    }
+  },
+  "10005": {
+    "id": 10005,
+    "icon": "res/carIcon/Car5.png",
+    "model": "res3d/Car5.lh",
+    "unlock": {
+      "way": 1,
+      "num": 200
+    }
+  },
+  "10006": {
+    "id": 10006,
+    "icon": "res/carIcon/Car6.png",
+    "model": "res3d/Car6.lh",
+    "unlock": {
+      "way": 1,
+      "num": 200
+    }
+  },
+  "10007": {
+    "id": 10007,
+    "icon": "res/carIcon/Car7.png",
+    "model": "res3d/Car7.lh",
+    "unlock": {
+      "way": 4,
+      "num": 1
+    }
+  },
+  "10008": {
+    "id": 10008,
+    "icon": "res/carIcon/Car8.png",
+    "model": "res3d/Car8.lh",
+    "unlock": {
+      "way": 4,
+      "num": 1
+    }
+  },
+  "10009": {
+    "id": 10009,
+    "icon": "res/carIcon/Car9.png",
+    "model": "res3d/Car9.lh",
+    "unlock": {
+      "way": 4,
+      "num": 1
+    }
+  }
+}

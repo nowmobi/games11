@@ -1,0 +1,18 @@
+{
+  "showArkadiumLogo": true,
+  "showAssembledLogo": true,
+  "showFrameBorders": true,
+  "offerUntimedMode": false,
+  "playTextColor": "0xffffff",
+  "hintTextPrimaryColor": "0x074031",
+  "hintTextSecondaryColor": "0xffffff",
+  "googleAnalyticsId": "UA-134705967-52",
+  "appInsightsId": "9ef3da1d-06d4-44e3-89a8-53c1aab1a308",
+  "abTestId": null,
+  "gameHUDTheme": {
+    "scale": 0.9
+  },
+  "rotatePopupTheme": {
+    "descriptionFontSize": 44
+  }
+}

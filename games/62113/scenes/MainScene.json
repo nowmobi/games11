@@ -1,0 +1,912 @@
+{
+  "x": 0,
+  "type": "Scene",
+  "selectedBox": 2,
+  "selecteID": 370,
+  "searchKey": "Scene",
+  "props": {
+    "width": 750,
+    "height": 1334
+  },
+  "nodeParent": -1,
+  "maxID": 383,
+  "loadList3D": [],
+  "loadList": [
+    "res/img_mainbg.jpg",
+    "res/img_car.png",
+    "res/img_setting.png",
+    "res/img_startGame.png",
+    "scenes/prefab/touch_box.prefab",
+    "scenes/prefab/box_Coins.prefab",
+    "scenes/WXExportAd/CarouselBox.prefab",
+    "scenes/WXExportAd/img_moreGameBtn.prefab",
+    "res/img_btn_blue.png",
+    "res/img_home.png",
+    "res/img_alert.png"
+  ],
+  "label": "Scene",
+  "isOpen": true,
+  "isDirectory": true,
+  "isAniNode": true,
+  "hasChild": true,
+  "compId": 2,
+  "child": [
+    {
+      "x": 15,
+      "type": "View",
+      "searchKey": "View",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "top": 0,
+        "right": 0,
+        "left": 0,
+        "bottom": 0
+      },
+      "nodeParent": 2,
+      "label": "View",
+      "isOpen": null,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 26,
+      "child": [
+        {
+          "type": "Image",
+          "searchKey": "Image,img_bg,img_bg",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "img_bg",
+            "skin": "res/img_mainbg.jpg",
+            "name": "img_bg"
+          },
+          "nodeParent": 26,
+          "label": "img_bg",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 23,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Panel",
+      "searchKey": "Panel,list_stages,list_stages",
+      "props": {
+        "y": 326,
+        "width": 749,
+        "var": "list_stages",
+        "right": 1,
+        "name": "list_stages",
+        "left": 0,
+        "height": 531
+      },
+      "nodeParent": 2,
+      "label": "list_stages",
+      "isOpen": true,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 28,
+      "child": [
+        {
+          "x": 30,
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/script/LevelListScript.ts",
+          "searchKey": "Script,LevelListScript",
+          "removeAble": true,
+          "props": {
+            "runtime": "script/LevelListScript.ts"
+          },
+          "nodeParent": 28,
+          "label": "LevelListScript",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 29,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Image",
+      "searchKey": "Image,img_car",
+      "props": {
+        "y": 760,
+        "x": 685,
+        "var": "img_car",
+        "skin": "res/img_car.png",
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "nodeParent": 2,
+      "label": "img_car",
+      "isOpen": null,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 12,
+      "child": [
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/script/ScaleEffectBtn.ts",
+          "searchKey": "Script,ScaleEffectBtn",
+          "removeAble": true,
+          "props": {
+            "runtime": "script/ScaleEffectBtn.ts"
+          },
+          "nodeParent": 12,
+          "label": "ScaleEffectBtn",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 13,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Image",
+      "searchKey": "Image,img_setting",
+      "props": {
+        "visible": false,
+        "var": "img_setting",
+        "top": 551,
+        "skin": "res/img_setting.png",
+        "right": -296,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "nodeParent": 2,
+      "label": "img_setting",
+      "isOpen": null,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 21,
+      "child": [
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/script/ScaleEffectBtn.ts",
+          "searchKey": "Script,ScaleEffectBtn",
+          "removeAble": true,
+          "props": {
+            "runtime": "script/ScaleEffectBtn.ts"
+          },
+          "nodeParent": 21,
+          "label": "ScaleEffectBtn",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 22,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Image",
+      "searchKey": "Image,img_startGame",
+      "props": {
+        "var": "img_startGame",
+        "skin": "res/img_btn_blue.png",
+        "scaleY": 1.5,
+        "scaleX": 1.5,
+        "centerY": 288,
+        "centerX": 150,
+        "anchorY": 0.9,
+        "anchorX": 0.9
+      },
+      "nodeParent": 2,
+      "label": "img_startGame",
+      "isOpen": false,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 24,
+      "child": [
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/script/ScaleEffectBtn.ts",
+          "searchKey": "Script,ScaleEffectBtn",
+          "removeAble": true,
+          "props": {
+            "runtime": "script/ScaleEffectBtn.ts"
+          },
+          "nodeParent": 24,
+          "label": "ScaleEffectBtn",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 25,
+          "child": []
+        },
+        {
+          "type": "Box",
+          "searchKey": "Box,touch_box",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "top": 0,
+            "right": 0,
+            "presetID": 1,
+            "name": "touch_box",
+            "left": 0,
+            "isPresetRoot": true,
+            "bottom": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "nodeParent": 24,
+          "label": "touch_box",
+          "isOpen": false,
+          "isDirectory": true,
+          "isAniNode": true,
+          "hasChild": true,
+          "compId": 30,
+          "child": [
+            {
+              "type": "Script",
+              "switchAble": true,
+              "source": "src/modules/TouchAdModules/TouchAdScript.ts",
+              "searchKey": "Script,TouchAdScript",
+              "removeAble": true,
+              "props": {
+                "touchId": 1,
+                "runtime": "modules/TouchAdModules/TouchAdScript.ts",
+                "presetID": 2
+              },
+              "nodeParent": 30,
+              "label": "TouchAdScript",
+              "isDirectory": false,
+              "isAniNode": true,
+              "hasChild": false,
+              "compId": 31,
+              "child": []
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "searchKey": "Label",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "text": "Start",
+            "strokeColor": "#030303",
+            "stroke": 3,
+            "fontSize": 28,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "centerY": 0,
+            "centerX": 0,
+            "bold": true
+          },
+          "nodeParent": 24,
+          "label": "Label",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 380,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Image",
+      "searchKey": "Image,box_Coins,box_Coins",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 210,
+        "var": "box_Coins",
+        "top": 50,
+        "skin": "res/img_coinBg.png",
+        "sizeGrid": "20,71,20,56",
+        "presetID": 1,
+        "name": "box_Coins",
+        "left": 20,
+        "isPresetRoot": true,
+        "height": 66
+      },
+      "nodeParent": 2,
+      "label": "box_Coins",
+      "isOpen": null,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 18,
+      "child": [
+        {
+          "type": "Image",
+          "searchKey": "Image",
+          "props": {
+            "skin": "res/img_coins.png",
+            "scaleY": 0.5,
+            "scaleX": 0.5,
+            "presetID": 2,
+            "centerY": -1,
+            "centerX": -72
+          },
+          "nodeParent": 18,
+          "label": "Image",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 19,
+          "child": []
+        },
+        {
+          "type": "FontClip",
+          "searchKey": "FontClip,coins_num",
+          "props": {
+            "value": "3000",
+            "skin": "res/shuzi4.png",
+            "sheet": "+-x/0123456789",
+            "scaleY": 0.5,
+            "scaleX": 0.5,
+            "presetID": 3,
+            "name": "coins_num",
+            "centerY": 4,
+            "centerX": 26,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "nodeParent": 18,
+          "label": "coins_num",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 20,
+          "child": []
+        },
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/script/BoxCoinScript.ts",
+          "searchKey": "Script,BoxCoinScript",
+          "removeAble": true,
+          "props": {
+            "runtime": "script/BoxCoinScript.ts",
+            "presetID": 4
+          },
+          "nodeParent": 18,
+          "label": "BoxCoinScript",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 15,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Box",
+      "searchKey": "Box,GridAd,GridAd",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 145,
+        "var": "GridAd",
+        "top": 560,
+        "name": "GridAd",
+        "left": 0,
+        "height": 200
+      },
+      "nodeParent": 2,
+      "label": "GridAd",
+      "isOpen": null,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 32,
+      "child": [
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/modules/WXExportAd/NewGridAd.ts",
+          "searchKey": "Script,NewGridAd",
+          "removeAble": true,
+          "props": {
+            "runtime": "modules/WXExportAd/NewGridAd.ts"
+          },
+          "nodeParent": 32,
+          "label": "NewGridAd",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 244,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Box",
+      "searchKey": "Box,CarouselBox,CarouselBox",
+      "props": {
+        "width": 145,
+        "visible": false,
+        "var": "CarouselBox",
+        "top": 460,
+        "scaleY": 0.75,
+        "scaleX": 0.75,
+        "presetID": 1,
+        "name": "CarouselBox",
+        "left": -614,
+        "isPresetRoot": true,
+        "height": 176,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "nodeParent": 2,
+      "label": "CarouselBox",
+      "isOpen": false,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 245,
+      "child": [
+        {
+          "type": "Image",
+          "searchKey": "Image",
+          "props": {
+            "width": 145,
+            "skin": "res/popularizeRes/moreGame_11.png",
+            "sizeGrid": "27,28,32,26",
+            "presetID": 2,
+            "height": 176,
+            "centerY": 0,
+            "centerX": 0
+          },
+          "nodeParent": 245,
+          "label": "Image",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 118,
+          "child": []
+        },
+        {
+          "type": "Image",
+          "searchKey": "Image,iconBg",
+          "props": {
+            "y": 221,
+            "width": 136,
+            "skin": "res/popularizeRes/moreGame_11.png",
+            "presetID": 3,
+            "name": "iconBg",
+            "height": 141,
+            "centerX": -557,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "nodeParent": 245,
+          "label": "iconBg",
+          "isOpen": null,
+          "isDirectory": true,
+          "isAniNode": true,
+          "hasChild": true,
+          "compId": 115,
+          "child": [
+            {
+              "type": "Image",
+              "searchKey": "Image,gameIcon",
+              "props": {
+                "y": 68,
+                "width": 136,
+                "skin": "res/popularizeRes/img_gameIconMask.png",
+                "presetID": 4,
+                "name": "gameIcon",
+                "height": 136,
+                "centerX": 0,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+              },
+              "nodeParent": 115,
+              "label": "gameIcon",
+              "isDirectory": true,
+              "isAniNode": true,
+              "hasChild": true,
+              "compId": 116,
+              "child": [
+                {
+                  "type": "Image",
+                  "searchKey": "Image",
+                  "props": {
+                    "y": 0,
+                    "x": 0,
+                    "width": 136,
+                    "skin": "res/popularizeRes/caijian.png",
+                    "renderType": "mask",
+                    "presetID": 5,
+                    "height": 136
+                  },
+                  "nodeParent": 116,
+                  "label": "Image",
+                  "isDirectory": false,
+                  "isAniNode": true,
+                  "hasChild": false,
+                  "compId": 117,
+                  "child": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "searchKey": "Label,gameName",
+          "props": {
+            "y": 157,
+            "x": 72,
+            "text": "111",
+            "presetID": 6,
+            "name": "gameName",
+            "fontSize": 20,
+            "bold": true,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "nodeParent": 245,
+          "label": "gameName",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 119,
+          "child": []
+        },
+        {
+          "type": "Image",
+          "searchKey": "Image,hotImg",
+          "props": {
+            "y": 22,
+            "x": 109,
+            "width": 65,
+            "visible": false,
+            "skin": "res/popularizeRes/moreGame_3.png",
+            "scaleY": 0.8,
+            "scaleX": 0.8,
+            "presetID": 8,
+            "name": "hotImg",
+            "height": 36,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "nodeParent": 245,
+          "label": "hotImg",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 137,
+          "child": []
+        },
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/modules/WXExportAd/CarouselScript.ts",
+          "searchKey": "Script,CarouselScript",
+          "removeAble": true,
+          "props": {
+            "runtime": "modules/WXExportAd/CarouselScript.ts",
+            "presetID": 9
+          },
+          "nodeParent": 245,
+          "label": "CarouselScript",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 138,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Image",
+      "searchKey": "Image,img_moreGameBtn,img_moreGameBtn",
+      "props": {
+        "width": 96,
+        "visible": false,
+        "var": "img_moreGameBtn",
+        "top": 622,
+        "skin": "res/img_moreGame.png",
+        "presetID": 1,
+        "name": "img_moreGameBtn",
+        "left": -378,
+        "isPresetRoot": true,
+        "height": 91
+      },
+      "nodeParent": 2,
+      "label": "img_moreGameBtn",
+      "isOpen": null,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 246,
+      "child": [
+        {
+          "type": "Image",
+          "searchKey": "Image",
+          "props": {
+            "y": -2,
+            "x": 67,
+            "width": 27,
+            "skin": "res/popularizeRes/moreGame_19.png",
+            "presetID": 3
+          },
+          "nodeParent": 246,
+          "label": "Image",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 369,
+          "child": []
+        },
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/modules/WXExportAd/MoreGameBtnScript.ts",
+          "searchKey": "Script,MoreGameBtnScript",
+          "removeAble": true,
+          "props": {
+            "y": 0,
+            "x": 0,
+            "runtime": "modules/WXExportAd/MoreGameBtnScript.ts",
+            "presetID": 2
+          },
+          "nodeParent": 246,
+          "label": "MoreGameBtnScript",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 368,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Box",
+      "searchKey": "Box,box_25",
+      "props": {
+        "width": 620,
+        "var": "box_25",
+        "height": 620,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "nodeParent": 2,
+      "label": "box_25",
+      "isOpen": null,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 370,
+      "child": [
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/modules/WXExportAd/CustomAd.ts",
+          "searchKey": "Script,CustomAd",
+          "removeAble": true,
+          "props": {
+            "runtime": "modules/WXExportAd/CustomAd.ts",
+            "customId": "adunit-2f26743bbd4d9945",
+            "autoOpen": "false",
+            "adWidth": 300
+          },
+          "nodeParent": 370,
+          "label": "CustomAd",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 371,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Box",
+      "searchKey": "Box,box_4",
+      "props": {
+        "width": 125,
+        "var": "box_4",
+        "top": 285,
+        "right": 0,
+        "height": 500
+      },
+      "nodeParent": 2,
+      "label": "box_4",
+      "isOpen": null,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 372,
+      "child": [
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/modules/WXExportAd/CustomAd.ts",
+          "searchKey": "Script,CustomAd",
+          "removeAble": true,
+          "props": {
+            "runtime": "modules/WXExportAd/CustomAd.ts",
+            "customId": "adunit-bec3a4a98c034e30",
+            "autoOpen": "true"
+          },
+          "nodeParent": 372,
+          "label": "CustomAd",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 373,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Image",
+      "searchKey": "Image,img_room",
+      "props": {
+        "var": "img_room",
+        "skin": "res/img_btn_blue.png",
+        "scaleY": 1.5,
+        "scaleX": 1.5,
+        "centerY": 289,
+        "centerX": -150,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "nodeParent": 2,
+      "label": "img_room",
+      "isOpen": false,
+      "isDirectory": true,
+      "isAniNode": true,
+      "hasChild": true,
+      "compId": 374,
+      "child": [
+        {
+          "type": "Label",
+          "searchKey": "Label",
+          "props": {
+            "text": "House",
+            "strokeColor": "#030303",
+            "stroke": 3,
+            "fontSize": 28,
+            "font": "Microsoft YaHei",
+            "color": "#ffffff",
+            "centerY": 0,
+            "centerX": 0,
+            "bold": true
+          },
+          "nodeParent": 374,
+          "label": "Label",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 375,
+          "child": []
+        },
+        {
+          "type": "Image",
+          "searchKey": "Image",
+          "props": {
+            "y": -6,
+            "skin": "res/img_home.png",
+            "scaleY": 0.4,
+            "scaleX": 0.4,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "nodeParent": 374,
+          "label": "Image",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 376,
+          "child": []
+        },
+        {
+          "type": "Script",
+          "switchAble": true,
+          "source": "src/script/ScaleEffectBtn.ts",
+          "searchKey": "Script,ScaleEffectBtn",
+          "removeAble": true,
+          "props": {
+            "runtime": "script/ScaleEffectBtn.ts"
+          },
+          "nodeParent": 374,
+          "label": "ScaleEffectBtn",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 377,
+          "child": []
+        },
+        {
+          "type": "Image",
+          "searchKey": "Image,img_dot",
+          "props": {
+            "y": 7,
+            "x": 14,
+            "skin": "res/img_alert.png",
+            "scaleY": 0.3,
+            "scaleX": 0.3,
+            "name": "img_dot",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "nodeParent": 374,
+          "label": "img_dot",
+          "isDirectory": false,
+          "isAniNode": true,
+          "hasChild": false,
+          "compId": 378,
+          "child": []
+        }
+      ]
+    },
+    {
+      "x": 15,
+      "type": "Image",
+      "searchKey": "Image,logo",
+      "props": {
+        "y": 116,
+        "x": 218,
+        "skin": "res/logo.png",
+        "name": "logo"
+      },
+      "nodeParent": 2,
+      "label": "logo",
+      "isDirectory": false,
+      "isAniNode": true,
+      "hasChild": false,
+      "compId": 381,
+      "child": []
+    },
+    {
+      "x": 15,
+      "type": "Image",
+      "searchKey": "Image,onSoundBtn,onSoundBtn",
+      "props": {
+        "y": 326,
+        "x": 72.5,
+        "var": "onSoundBtn",
+        "scaleY": 0.35,
+        "scaleX": 0.35,
+        "name": "onSoundBtn"
+      },
+      "nodeParent": 2,
+      "label": "onSoundBtn",
+      "isDirectory": false,
+      "isAniNode": true,
+      "hasChild": false,
+      "compId": 382,
+      "child": []
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 24,
+      "action": 0
+    }
+  ]
+}

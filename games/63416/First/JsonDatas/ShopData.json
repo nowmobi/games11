@@ -1,0 +1,106 @@
+{
+  "Living01_Room": {
+    "id": "Living01_Room",
+    "tips": "客厅",
+    "shop": [
+      1,
+      0,
+      2000
+    ],
+    "showUrl": "shop/Image_shop_15.png",
+    "shopFurnitureSoft": 1,
+    "shopFurniturelockButShow": "shop3/Image_shop3_22.png",
+    "shopFurnitureunLockButShow": "shop3/Image_shop3_14.png"
+  },
+  "Bath01_Room": {
+    "id": "Bath01_Room",
+    "tips": "浴室",
+    "shop": [
+      2,
+      0,
+      200
+    ],
+    "showUrl": "shop/Image_shop_17.png",
+    "shopFurnitureSoft": 2,
+    "shopFurniturelockButShow": "shop3/Image_shop3_15.png",
+    "shopFurnitureunLockButShow": "shop3/Image_shop3_07.png"
+  },
+  "Bed01_Room": {
+    "id": "Bed01_Room",
+    "tips": "卧室",
+    "shop": [
+      3,
+      0,
+      2000
+    ],
+    "showUrl": "shop/Image_shop_18.png",
+    "shopFurnitureSoft": 3,
+    "shopFurniturelockButShow": "shop3/Image_shop3_16.png",
+    "shopFurnitureunLockButShow": "shop3/Image_shop3_08.png"
+  },
+  "Dining01_Room": {
+    "id": "Dining01_Room",
+    "tips": "餐厅",
+    "shop": [
+      4,
+      1,
+      4000
+    ],
+    "showUrl": "shop/Image_shop_19.png",
+    "shopFurnitureSoft": 4,
+    "shopFurniturelockButShow": "shop3/Image_shop3_17.png",
+    "shopFurnitureunLockButShow": "shop3/Image_shop3_09.png"
+  },
+  "Entrance01_Room": {
+    "id": "Entrance01_Room",
+    "tips": "门厅",
+    "shop": [
+      5,
+      1,
+      4000
+    ],
+    "showUrl": "shop/Image_shop_14.png",
+    "shopFurnitureSoft": 5,
+    "shopFurniturelockButShow": "shop3/Image_shop3_18.png",
+    "shopFurnitureunLockButShow": "shop3/Image_shop3_10.png"
+  },
+  "Kitchen01_Room": {
+    "id": "Kitchen01_Room",
+    "tips": "厨房",
+    "shop": [
+      6,
+      1,
+      6000
+    ],
+    "showUrl": "shop/Image_shop_16.png",
+    "shopFurnitureSoft": 6,
+    "shopFurniturelockButShow": "shop3/Image_shop3_19.png",
+    "shopFurnitureunLockButShow": "shop3/Image_shop3_11.png"
+  },
+  "Laundry01_Room": {
+    "id": "Laundry01_Room",
+    "tips": "洗衣间",
+    "shop": [
+      7,
+      2,
+      6000
+    ],
+    "showUrl": "shop/Image_shop_21.png",
+    "shopFurnitureSoft": 7,
+    "shopFurniturelockButShow": "shop3/Image_shop3_20.png",
+    "shopFurnitureunLockButShow": "shop3/Image_shop3_12.png"
+  },
+  "Library01_Room": {
+    "id": "Library01_Room",
+    "tips": "大厅",
+    "shop": [
+      8,
+      2,
+      2006
+    ],
+    "showUrl": "shop/Image_shop_20.png",
+    "shopFurnitureSoft": 8,
+    "shopFurniturelockButShow": "shop3/Image_shop3_21.png",
+    "shopFurnitureunLockButShow": "shop3/Image_shop3_13.png"
+  }
+}

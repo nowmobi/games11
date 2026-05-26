@@ -1,0 +1,23 @@
+{
+  "id": "61906",
+  "title": "Number Domination",
+  "slug": "number-domination",
+  "description": "Number Domination is a turn-based strategy card game where players compete to claim tiles on the board using number cards (0-9). Create chains of three or more, match pairs, or make a Perfect 9 by summing two cards to 9. Each successful move earns points and claims tiles. At the end, each occupied tile grants an extra point to its owner. Play in Face the Challenger or Face the Champion mode and win with smart moves. Think ahead, outplay your opponent, and dominate the numbers!",
+  "instructions": "Use a mouse or touchpad to place number cards by tapping or dragging Form pairs or chains to earn points and claim tiles The player with the most points wins ",
+  "url": "https://html5.gamemonetize.com/u8ql6nl21iuoy0msb4erlap814yb8eyf/",
+  "category": "Puzzle",
+  "categorySlug": "puzzle",
+  "tags": [
+    "2 Player Games",
+    "blockchain",
+    "Board",
+    "Card",
+    "Mobile",
+    "Number"
+  ],
+  "thumb": "https://img.gamemonetize.com/u8ql6nl21iuoy0msb4erlap814yb8eyf/512x384.jpg",
+  "width": 600,
+  "height": 800,
+  "publisher": "LofGames.com",
+  "crawledAt": "2026-01-31T16:09:38.887Z"
+}

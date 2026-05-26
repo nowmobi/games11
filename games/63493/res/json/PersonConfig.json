@@ -1,0 +1,26 @@
+[
+  {
+    "ID": 1,
+    "name": "Head"
+  },
+  {
+    "ID": 2,
+    "name": "Arm"
+  },
+  {
+    "ID": 3,
+    "name": "Chest"
+  },
+  {
+    "ID": 4,
+    "name": "Stomach"
+  },
+  {
+    "ID": 5,
+    "name": "Leg"
+  },
+  {
+    "ID": 6,
+    "name": "Foot"
+  }
+]

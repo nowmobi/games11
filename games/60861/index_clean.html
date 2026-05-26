@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-O Battle</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+      /* 隐藏所有广告容器 */
+      #imaContainer,
+      #imaContainer_new,
+      #sdk__advertisement,
+      #gmLoadingText,
+      iframe[src*="imasdk"],
+      iframe[src*="doubleclick"],
+      iframe[src*="googlesyndication"],
+      iframe[title="Advertisement"],
+      div[id*="google_ads"],
+      div[id*="aswift"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+    </style>
+    <script>
+      // 定期清除动态插入的广告元素
+      setInterval(function() {
+        var adSelectors = [
+          '#imaContainer',
+          '#imaContainer_new', 
+          '#sdk__advertisement',
+          '#gmLoadingText',
+          'iframe[src*="imasdk"]',
+          'iframe[src*="doubleclick"]',
+          'iframe[src*="googlesyndication"]',
+          'iframe[title="Advertisement"]',
+          'div[id*="google_ads"]',
+          'div[id*="aswift"]'
+        ];
+        
+        adSelectors.forEach(function(selector) {
+          var elements = document.querySelectorAll(selector);
+          elements.forEach(function(el) {
+            if (el && el.parentNode) {
+              el.parentNode.removeChild(el);
+            }
+          });
+        });
+
+        // 阻止广告SDK函数
+        if (window.sdk_init) window.sdk_init = function() {};
+        if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
+        if (window.adBreak) window.adBreak = function() {};
+        if (window.adConfig) window.adConfig = function() {};
+      }, 500);
+    </script>
+
+  </head>
+<body>
+    <div class="game-container">
+        <h1>X-O Battle</h1>
+        <div id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <button id="reset-btn">New Game</button>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen">
+        <h2 id="result-message"></h2>
+        <button id="play-again">Play Again</button>
+    </div>
+
+    <!-- GameMonetize SDK Initialization -->
+    <script type="text/javascript">
+        window.SDK_OPTIONS = {
+            gameId: "yeqh7inen60dcrtwluqfcgp1bubl7god", // Replace with your GameMonetize game ID
+            onEvent: function (event) {
+                switch (event.name) {
+                    case "SDK_GAME_PAUSE":
+                        gameActive = false; // Pause game
+                        break;
+                    case "SDK_GAME_START":
+                        gameActive = true;  // Resume game
+                        break;
+                    case "SDK_READY":
+                        console.log("GameMonetize SDK is ready");
+                        break;
+                    case "SDK_ERROR":
+                        console.error("GameMonetize SDK encountered an error");
+                        break;
+                }
+            }
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://api.gamemonetize.com/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, "script", "gamemonetize-sdk"));
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

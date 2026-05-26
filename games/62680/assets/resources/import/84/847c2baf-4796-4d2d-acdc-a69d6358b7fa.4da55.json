@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c8uoxPJGpER6nr2ZaxSXPY"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "spaceDecor",
+      "rect": [
+        0,
+        0,
+        30,
+        30
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        30,
+        30
+      ],
+      "capInsets": [
+        13,
+        12,
+        12,
+        11
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

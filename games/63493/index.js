@@ -1,0 +1,10 @@
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.core.js");
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.ani.js");
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.ui.js");
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.d3.js");
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.physics.js");
+loadLib("./libs/fairygui.js");
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.physics3D.js");
+// loadLib("./libs/laya.spine.js");
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/spine-core-3.8.js");
+loadLib("./js/bundle.js");

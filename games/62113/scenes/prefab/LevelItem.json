@@ -1,0 +1,150 @@
+{
+  "type": "Box",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 128,
+    "var": "LevelItem",
+    "presetID": 1,
+    "name": "LevelItem",
+    "isPresetRoot": true,
+    "height": 227,
+    "centerX": 0
+  },
+  "compId": 4,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 139,
+        "x": -127,
+        "width": 200,
+        "presetID": 9,
+        "name": "box_gift",
+        "height": 76
+      },
+      "compId": 13,
+      "child": [
+        {
+          "type": "Box",
+          "props": {
+            "y": 28,
+            "x": 66,
+            "width": 100,
+            "presetID": 10,
+            "height": 20,
+            "bgColor": "#ffff00"
+          },
+          "compId": 14
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 36,
+            "x": 49,
+            "skin": "res/img_gift_blue.png",
+            "scaleY": 0.44,
+            "scaleX": 0.44,
+            "presetID": 8,
+            "name": "img_gift",
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 12
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "skin": "res/game/img_bar1.png",
+        "presetID": 2,
+        "centerX": 0,
+        "bottom": 100,
+        "anchorX": 0.5
+      },
+      "compId": 9
+    },
+    {
+      "type": "Panel",
+      "props": {
+        "width": 17,
+        "presetID": 3,
+        "name": "panel_progress",
+        "height": 127,
+        "centerX": 0,
+        "bottom": 100,
+        "anchorX": 0.5
+      },
+      "compId": 10,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "x": 0,
+            "skin": "res/game/img_bar2.png",
+            "presetID": 4,
+            "height": 127
+          },
+          "compId": 11
+        }
+      ]
+    },
+    {
+      "type": "Image",
+      "props": {
+        "skin": "res/game/img_level_cur.png",
+        "presetID": 5,
+        "name": "img_di",
+        "centerX": 0,
+        "bottom": -12,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 5,
+      "child": [
+        {
+          "type": "FontClip",
+          "props": {
+            "value": "1",
+            "skin": "res/shuzi4.png",
+            "sheet": "+-x/0123456789",
+            "scaleY": 0.6,
+            "scaleX": 0.6,
+            "presetID": 6,
+            "name": "label_stage",
+            "centerY": 4,
+            "centerX": 0,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 6
+        },
+        {
+          "type": "Image",
+          "props": {
+            "skin": "res/game/img_lock.png",
+            "scaleY": 0.5,
+            "scaleX": 0.5,
+            "presetID": 7,
+            "name": "img_lock",
+            "centerX": 0,
+            "bottom": 215,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 7
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "res/img_gift_blue.png",
+    "res/game/img_bar1.png",
+    "res/game/img_bar2.png",
+    "res/game/img_level_cur.png",
+    "res/shuzi4.png",
+    "res/game/img_lock.png"
+  ],
+  "loadList3D": []
+}

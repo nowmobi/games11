@@ -1,0 +1,182 @@
+{
+  "type": "Dialog",
+  "props": {
+    "runtime": "InfoTips.js",
+    "mouseThrough": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 156,
+        "var": "butRoot",
+        "height": 51,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 38,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "var": "buy",
+            "stateNum": 1,
+            "skin": "UIRes/shop/Button_shop_02.png"
+          },
+          "compId": 39,
+          "child": [
+            {
+              "type": "Label",
+              "props": {
+                "y": 28,
+                "x": 94,
+                "var": "goldLable",
+                "valign": "middle",
+                "text": "6000",
+                "scaleY": 0.9,
+                "scaleX": 0.9,
+                "font": "font01",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "align": "center"
+              },
+              "compId": 43,
+              "child": [
+                {
+                  "type": "Image",
+                  "props": {
+                    "x": -22,
+                    "width": 25,
+                    "skin": "UIRes/shop/Image_shop_04.png",
+                    "scaleY": 1.3,
+                    "scaleX": 1.3,
+                    "name": "ggggg",
+                    "height": 26,
+                    "centerY": -2,
+                    "anchorY": 0.5,
+                    "anchorX": 0.5
+                  },
+                  "compId": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "add",
+            "stateNum": 1,
+            "skin": "UIRes/shop/Button_shop_05.png"
+          },
+          "compId": 41,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 12,
+                "x": 44,
+                "skin": "UIRes/shop/Image_shop_12.png",
+                "name": "eeeee"
+              },
+              "compId": 45
+            },
+            {
+              "type": "Image",
+              "props": {
+                "y": 14,
+                "x": 13,
+                "skin": "UIRes/shop/Image_shop_13.png",
+                "name": "fffff"
+              },
+              "compId": 46
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "obtain",
+            "stateNum": 1,
+            "skin": "UIRes/shop/Button_shop_04.png"
+          },
+          "compId": 42,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 9.5,
+                "skin": "UIRes/shop3/Image_shop3_176.png",
+                "centerX": 0
+              },
+              "compId": 49
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "unUse",
+            "stateNum": 1,
+            "skin": "UIRes/shop/Button_shop_04.png"
+          },
+          "compId": 50,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 10.5,
+                "skin": "UIRes/shop3/Image_shop3_176.png",
+                "centerX": 0
+              },
+              "compId": 51
+            }
+          ]
+        },
+        {
+          "type": "Image",
+          "props": {
+            "y": 0,
+            "x": 0,
+            "var": "use",
+            "stateNum": 1,
+            "skin": "UIRes/shop/Button_shop_04.png"
+          },
+          "compId": 52,
+          "child": [
+            {
+              "type": "Image",
+              "props": {
+                "y": 10.5,
+                "x": 35,
+                "skin": "UIRes/shop3/Image_shop3_177.png"
+              },
+              "compId": 53
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "UIRes/shop/Button_shop_02.png",
+    "UIRes/shop/Image_shop_04.png",
+    "UIRes/shop/Button_shop_05.png",
+    "UIRes/shop/Image_shop_12.png",
+    "UIRes/shop/Image_shop_13.png",
+    "UIRes/shop/Button_shop_04.png",
+    "UIRes/shop/Image_shop_03.png",
+    "UIRes/shop3/Image_shop3_176.png",
+    "UIRes/shop3/Image_shop3_177.png"
+  ],
+  "loadList3D": []
+}

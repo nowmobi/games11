@@ -1,0 +1,23 @@
+{
+  "companyName": "Zeldaz",
+  "productName": "Blob Merge Color",
+  "productVersion": "0.01.00",
+  "dataUrl": "last.data.unityweb",
+  "wasmCodeUrl": "last.wasm.code.unityweb",
+  "wasmFrameworkUrl": "last.wasm.framework.unityweb",
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "splashScreenStyle": "Light",
+  "backgroundColor": "#F1DDB6",
+  "cacheControl": {
+    "default": "must-revalidate"
+  },
+  "developmentBuild": false,
+  "multithreading": false,
+  "unityVersion": "2019.4.31f1"
+}

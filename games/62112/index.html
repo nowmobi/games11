@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Sudoku</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Modern Sudoku</h1>
+    <div class="game-grid" id="game-grid"></div>
+    <button id="reset-button">New Game</button>
+  </div>
+
+  <!-- Win Screen -->
+  <div id="win-screen" class="overlay hidden">
+    <h2>🎉 Congratulations! You Win! 🎉</h2>
+    <button id="play-again-button">Play Again</button>
+  </div>
+
+  <!-- Draw Screen -->
+  <div id="draw-screen" class="overlay hidden">
+    <h2>😞 It's a Draw! 😞</h2>
+    <button id="retry-button">Try Again</button>
+  </div>
+
+  <!-- GameMonetize SDK -->
+  <script type="text/javascript">
+    window.SDK_OPTIONS = {
+      gameId: "3rlvhqpnhkz5zaoxhe7yxy4a8mk9adee", // Replace with your actual GameMonetize game ID
+      onEvent: function (event) {
+        switch (event.name) {
+          case "SDK_GAME_PAUSE":
+            console.log("Game Paused for Ad");
+            break;
+          case "SDK_GAME_START":
+            console.log("Ad Finished, Resume Game");
+            break;
+          case "SDK_READY":
+            console.log("SDK Ready");
+            break;
+          case "SDK_ERROR":
+            console.error("SDK Error:", event.message);
+            break;
+        }
+      }
+    };
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://api.gamemonetize.com/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    })(document, "script", "gamemonetize-sdk");
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>

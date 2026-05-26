@@ -1,0 +1,465 @@
+{
+  "Living01_Room1": {
+    "id": "Living01_Room1",
+    "tips": "左边的墙",
+    "wall": "MyHouseWall 40",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Living01_Room2": {
+    "id": "Living01_Room2",
+    "tips": "",
+    "wall": "MyHouseWall 48",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Living01_Room3": {
+    "id": "Living01_Room3",
+    "tips": "",
+    "wall": "MyHouseWall 44",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Living01_Room4": {
+    "id": "Living01_Room4",
+    "tips": "",
+    "wall": "MyHouseWall 41",
+    "furniture1": [
+      "Upgraded_5"
+    ],
+    "furniture2": []
+  },
+  "Living01_Room5": {
+    "id": "Living01_Room5",
+    "tips": "",
+    "wall": "MyHouseWall 47",
+    "furniture1": [
+      "Upgraded_8"
+    ],
+    "furniture2": []
+  },
+  "Living01_Room6": {
+    "id": "Living01_Room6",
+    "tips": "",
+    "wall": "MyHouseWall 40 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Living01_Room7": {
+    "id": "Living01_Room7",
+    "tips": "",
+    "wall": "MyHouseWall 47 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Living01_Room8": {
+    "id": "Living01_Room8",
+    "tips": "",
+    "wall": "MyHouseWall 41 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Living01_Room9": {
+    "id": "Living01_Room9",
+    "tips": "",
+    "wall": "MyHouseWall 44 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Living01_Room10": {
+    "id": "Living01_Room10",
+    "tips": "",
+    "wall": "MyHouseWall 48 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bath01_Room1": {
+    "id": "Bath01_Room1",
+    "tips": "",
+    "wall": "MyHouseWall 27",
+    "furniture1": [
+      "Area_6"
+    ],
+    "furniture2": []
+  },
+  "Bath01_Room2": {
+    "id": "Bath01_Room2",
+    "tips": "",
+    "wall": "MyHouseWall 25",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bath01_Room3": {
+    "id": "Bath01_Room3",
+    "tips": "",
+    "wall": "MyHouseWall 28",
+    "furniture1": [
+      "Area_3"
+    ],
+    "furniture2": []
+  },
+  "Bath01_Room4": {
+    "id": "Bath01_Room4",
+    "tips": "",
+    "wall": "MyHouseWall 25 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bath01_Room5": {
+    "id": "Bath01_Room5",
+    "tips": "",
+    "wall": "MyHouseWall 28 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bath01_Room6": {
+    "id": "Bath01_Room6",
+    "tips": "",
+    "wall": "MyHouseWall 27 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bed01_Room1": {
+    "id": "Bed01_Room1",
+    "tips": "",
+    "wall": "MyHouseWall 33",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bed01_Room2": {
+    "id": "Bed01_Room2",
+    "tips": "",
+    "wall": "MyHouseWall 37",
+    "furniture1": [
+      "Area_8"
+    ],
+    "furniture2": []
+  },
+  "Bed01_Room3": {
+    "id": "Bed01_Room3",
+    "tips": "",
+    "wall": "MyHouseWall 34",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bed01_Room4": {
+    "id": "Bed01_Room4",
+    "tips": "",
+    "wall": "MyHouseWall 36",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bed01_Room5": {
+    "id": "Bed01_Room5",
+    "tips": "",
+    "wall": "MyHouseWall 32",
+    "furniture1": [
+      "Area_7",
+      "Area_6"
+    ],
+    "furniture2": []
+  },
+  "Bed01_Room6": {
+    "id": "Bed01_Room6",
+    "tips": "",
+    "wall": "MyHouseWall 35",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bed01_Room7": {
+    "id": "Bed01_Room7",
+    "tips": "",
+    "wall": "MyHouseWall 38",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Bed01_Room8": {
+    "id": "Bed01_Room8",
+    "tips": "",
+    "wall": "MyHouseWall 39",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Dining01_Room1": {
+    "id": "Dining01_Room1",
+    "tips": "",
+    "wall": "MyHouseWall 32",
+    "furniture1": [
+      "Area_6",
+      "Area_3"
+    ],
+    "furniture2": []
+  },
+  "Dining01_Room2": {
+    "id": "Dining01_Room2",
+    "tips": "",
+    "wall": "MyHouseWall 34",
+    "furniture1": [
+      "Area_4"
+    ],
+    "furniture2": []
+  },
+  "Dining01_Room3": {
+    "id": "Dining01_Room3",
+    "tips": "",
+    "wall": "MyHouseWall 35",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Dining01_Room4": {
+    "id": "Dining01_Room4",
+    "tips": "",
+    "wall": "MyHouseWall 38",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Dining01_Room5": {
+    "id": "Dining01_Room5",
+    "tips": "",
+    "wall": "MyHouseWall 33",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Dining01_Room6": {
+    "id": "Dining01_Room6",
+    "tips": "",
+    "wall": "MyHouseWall 36",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Dining01_Room7": {
+    "id": "Dining01_Room7",
+    "tips": "",
+    "wall": "MyHouseWall 37",
+    "furniture1": [
+      "Area_7",
+      "Area_10"
+    ],
+    "furniture2": []
+  },
+  "Dining01_Room8": {
+    "id": "Dining01_Room8",
+    "tips": "",
+    "wall": "MyHouseWall 39",
+    "furniture1": [
+      "Area_7"
+    ],
+    "furniture2": []
+  },
+  "Entrance01_Room1": {
+    "id": "Entrance01_Room1",
+    "tips": "",
+    "wall": "MyHouseWall 24 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Entrance01_Room2": {
+    "id": "Entrance01_Room2",
+    "tips": "",
+    "wall": "MyHouseWall 26 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Entrance01_Room3": {
+    "id": "Entrance01_Room3",
+    "tips": "",
+    "wall": "MyHouseWall 24",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Entrance01_Room4": {
+    "id": "Entrance01_Room4",
+    "tips": "",
+    "wall": "MyHouseWall 26",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Entrance01_Room5": {
+    "id": "Entrance01_Room5",
+    "tips": "",
+    "wall": "MyHouseWall 27",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Entrance01_Room6": {
+    "id": "Entrance01_Room6",
+    "tips": "",
+    "wall": "MyHouseWall 27 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Kitchen01_Room1": {
+    "id": "Kitchen01_Room1",
+    "tips": "",
+    "wall": "MyHouseWall 29",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Kitchen01_Room2": {
+    "id": "Kitchen01_Room2",
+    "tips": "",
+    "wall": "MyHouseWall 29 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Kitchen01_Room3": {
+    "id": "Kitchen01_Room3",
+    "tips": "",
+    "wall": "MyHouseWall 24",
+    "furniture1": [
+      "Area_3",
+      "Area_7"
+    ],
+    "furniture2": []
+  },
+  "Kitchen01_Room4": {
+    "id": "Kitchen01_Room4",
+    "tips": "",
+    "wall": "MyHouseWall 26",
+    "furniture1": [
+      "Area_2"
+    ],
+    "furniture2": []
+  },
+  "Kitchen01_Room5": {
+    "id": "Kitchen01_Room5",
+    "tips": "",
+    "wall": "MyHouseWall 24 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Kitchen01_Room6": {
+    "id": "Kitchen01_Room6",
+    "tips": "",
+    "wall": "MyHouseWall 26 (1)",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Laundry01_Room1": {
+    "id": "Laundry01_Room1",
+    "tips": "",
+    "wall": "MyHouseWall 33",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Laundry01_Room2": {
+    "id": "Laundry01_Room2",
+    "tips": "",
+    "wall": "MyHouseWall 38",
+    "furniture1": [
+      "Area_3"
+    ],
+    "furniture2": []
+  },
+  "Laundry01_Room3": {
+    "id": "Laundry01_Room3",
+    "tips": "",
+    "wall": "MyHouseWall 34",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Laundry01_Room4": {
+    "id": "Laundry01_Room4",
+    "tips": "",
+    "wall": "MyHouseWall 35",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Laundry01_Room5": {
+    "id": "Laundry01_Room5",
+    "tips": "",
+    "wall": "MyHouseWall 32",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Laundry01_Room6": {
+    "id": "Laundry01_Room6",
+    "tips": "",
+    "wall": "MyHouseWall 36",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Laundry01_Room7": {
+    "id": "Laundry01_Room7",
+    "tips": "",
+    "wall": "MyHouseWall 37",
+    "furniture1": [
+      "Area_5"
+    ],
+    "furniture2": []
+  },
+  "Laundry01_Room8": {
+    "id": "Laundry01_Room8",
+    "tips": "",
+    "wall": "MyHouseWall 39",
+    "furniture1": [
+      "Area_5"
+    ],
+    "furniture2": []
+  },
+  "Library01_Room1": {
+    "id": "Library01_Room1",
+    "tips": "",
+    "wall": "MyHouseWall 33",
+    "furniture1": [
+      "Area_2",
+      "Area_1"
+    ],
+    "furniture2": []
+  },
+  "Library01_Room2": {
+    "id": "Library01_Room2",
+    "tips": "",
+    "wall": "MyHouseWall 38",
+    "furniture1": [
+      "Area_1"
+    ],
+    "furniture2": []
+  },
+  "Library01_Room3": {
+    "id": "Library01_Room3",
+    "tips": "",
+    "wall": "MyHouseWall 34",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Library01_Room4": {
+    "id": "Library01_Room4",
+    "tips": "",
+    "wall": "MyHouseWall 39",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Library01_Room5": {
+    "id": "Library01_Room5",
+    "tips": "",
+    "wall": "MyHouseWall 35",
+    "furniture1": [
+      "Area_6"
+    ],
+    "furniture2": []
+  },
+  "Library01_Room6": {
+    "id": "Library01_Room6",
+    "tips": "",
+    "wall": "MyHouseWall 37",
+    "furniture1": [
+      "Area_7"
+    ],
+    "furniture2": []
+  },
+  "Library01_Room7": {
+    "id": "Library01_Room7",
+    "tips": "",
+    "wall": "MyHouseWall 32",
+    "furniture1": [],
+    "furniture2": []
+  },
+  "Library01_Room8": {
+    "id": "Library01_Room8",
+    "tips": "",
+    "wall": "MyHouseWall 36",
+    "furniture1": [],
+    "furniture2": []
+  }
+}

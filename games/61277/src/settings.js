@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-desktop",groupList:["default","ui","fish","point"],collisionMatrix:[[true,null,true],[false,false],[true,false,true,true],[false,false,true,false]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/resources/Game.fire",orientation:"",jsList:[]};

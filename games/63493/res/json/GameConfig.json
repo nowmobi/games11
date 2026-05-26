@@ -1,0 +1,38 @@
+[
+  {
+    "ID": 1,
+    "Level": 1,
+    "tasklist": "1;1",
+    "bufflist": "1;0"
+  },
+  {
+    "ID": 2,
+    "Level": 2,
+    "tasklist": "1;2;4;2",
+    "bufflist": "1;0"
+  },
+  {
+    "ID": 3,
+    "Level": 3,
+    "tasklist": "3;2;5;2;6;2",
+    "bufflist": "2;0"
+  },
+  {
+    "ID": 4,
+    "Level": 4,
+    "tasklist": "1;1;2;2;3;3",
+    "bufflist": "2;0"
+  },
+  {
+    "ID": 5,
+    "Level": 5,
+    "tasklist": "1;2;3;2;5;2;6;2",
+    "bufflist": "1;0"
+  },
+  {
+    "ID": 6,
+    "Level": 6,
+    "tasklist": "2;3;4;3;6;3",
+    "bufflist": "2;0"
+  }
+]

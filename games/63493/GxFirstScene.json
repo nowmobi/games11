@@ -1,0 +1,113 @@
+{
+  "type": "Scene",
+  "props": {
+    "width": 1280,
+    "runtime": "gxcore/script/scene/GxFirstScene.ts",
+    "name": "Scene",
+    "height": 720
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "width": 2000,
+        "skin": "gx/bg_chaping_01.png",
+        "height": 2000,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 13
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "visible": true,
+        "var": "ageSp",
+        "top": 30,
+        "left": 30
+      },
+      "compId": 3
+    },
+    {
+      "type": "Label",
+      "props": {
+        "wordWrap": false,
+        "var": "jkTitle",
+        "text": "健康游戏忠告",
+        "name": "jkTitle",
+        "fontSize": 35,
+        "font": "Microsoft YaHei",
+        "color": "#404040",
+        "centerX": 0,
+        "bottom": 200
+      },
+      "compId": 12
+    },
+    {
+      "type": "Label",
+      "props": {
+        "wordWrap": false,
+        "var": "jkContent",
+        "text": "抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当",
+        "name": "jkContent",
+        "fontSize": 24,
+        "font": "Microsoft YaHei",
+        "color": "#404040",
+        "centerX": 0,
+        "bottom": 160
+      },
+      "compId": 4,
+      "child": [
+        {
+          "type": "Label",
+          "props": {
+            "y": 35,
+            "wordWrap": false,
+            "text": "适度游戏益脑 过度游戏伤身 合理安排时间 享受健康生活",
+            "name": "notice",
+            "fontSize": 24,
+            "font": "Microsoft YaHei",
+            "color": "#404040",
+            "centerX": 0
+          },
+          "compId": 11
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "wordWrap": false,
+        "var": "jkCompany",
+        "text": "著作权人：有限公司",
+        "name": "jkCompany",
+        "fontSize": 22,
+        "font": "Microsoft YaHei",
+        "color": "#404040",
+        "centerX": 0,
+        "bottom": 80
+      },
+      "compId": 8
+    },
+    {
+      "type": "Label",
+      "props": {
+        "wordWrap": false,
+        "var": "jkSoftCode",
+        "text": "软著登记号：xxx",
+        "name": "jkSoftCode",
+        "fontSize": 22,
+        "font": "Microsoft YaHei",
+        "color": "#404040",
+        "centerX": 0,
+        "bottom": 50
+      },
+      "compId": 10
+    }
+  ],
+  "loadList": [
+    "gx/bg_chaping_01.png"
+  ],
+  "loadList3D": []
+}

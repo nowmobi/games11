@@ -1,0 +1,54 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": []
+    },
+    {
+      "name": "logic-common",
+      "assets": [
+        {
+          "alias": [
+            "logic-common/common-atlas",
+            "common-atlas"
+          ],
+          "src": [
+            "logic-common/common-atlas-ObbfQw.png.json",
+            "logic-common/common-atlas-LmQLjw.webp.json",
+            "logic-common/common-atlas-iybhhw@0.5x.webp.json",
+            "logic-common/common-atlas-7MNB_w@0.5x.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "logic-game",
+      "assets": [
+        {
+          "alias": [
+            "logic-game/game-atlas",
+            "game-atlas"
+          ],
+          "src": [
+            "logic-game/game-atlas-ZV7kfg@0.5x.png.json",
+            "logic-game/game-atlas-qmiM9Q@0.5x.webp.json",
+            "logic-game/game-atlas-pRGI_g.png.json",
+            "logic-game/game-atlas-bJBVOg.webp.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

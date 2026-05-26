@@ -1,0 +1,92 @@
+{
+  "type": "Dialog",
+  "props": {
+    "runtime": "InfoTips.js",
+    "mouseThrough": true
+  },
+  "compId": 2,
+  "child": [
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "buyBut",
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 13,
+      "child": [
+        {
+          "type": "Button",
+          "props": {
+            "stateNum": 1,
+            "skin": "UIRes/game/Image_game_08.png"
+          },
+          "compId": 12
+        }
+      ]
+    },
+    {
+      "type": "Box",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "var": "addBut",
+        "anchorY": 0.5,
+        "anchorX": 0.5
+      },
+      "compId": 14,
+      "child": [
+        {
+          "type": "Button",
+          "props": {
+            "stateNum": 1,
+            "skin": "UIRes/game/Image_game_08.png"
+          },
+          "compId": 15
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": -40,
+        "x": 17,
+        "var": "goldLable",
+        "valign": "middle",
+        "text": "6000",
+        "scaleY": 0.9,
+        "scaleX": 0.9,
+        "font": "font01",
+        "anchorY": 0.5,
+        "anchorX": 0.5,
+        "align": "center"
+      },
+      "compId": 17,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "x": -22,
+            "width": 25,
+            "skin": "UIRes/shop/Image_shop_04.png",
+            "scaleY": 1.3,
+            "scaleX": 1.3,
+            "name": "ggggg",
+            "height": 26,
+            "centerY": -2,
+            "anchorY": 0.5,
+            "anchorX": 0.5
+          },
+          "compId": 18
+        }
+      ]
+    }
+  ],
+  "loadList": [
+    "UIRes/game/Image_game_08.png",
+    "UIRes/shop/Image_shop_04.png"
+  ],
+  "loadList3D": []
+}

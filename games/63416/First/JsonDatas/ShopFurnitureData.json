@@ -1,0 +1,834 @@
+{
+  "Living01_Room1": {
+    "id": "Living01_Room1",
+    "tips": "",
+    "furniture": "Upgraded_1",
+    "shop": [
+      1,
+      0,
+      0
+    ],
+    "showTitleUrl": "shop3/Image_shop3_88.png",
+    "showUrl": "shop3/Image_shop3_51.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_131.png"
+  },
+  "Living01_Room2": {
+    "id": "Living01_Room2",
+    "tips": "",
+    "furniture": "Upgraded_2",
+    "shop": [
+      2,
+      0,
+      200
+    ],
+    "showTitleUrl": "shop3/Image_shop3_110.png",
+    "showUrl": "shop3/Image_shop3_54.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_153.png"
+  },
+  "Living01_Room3": {
+    "id": "Living01_Room3",
+    "tips": "",
+    "furniture": "Upgraded_3",
+    "shop": [
+      3,
+      0,
+      300
+    ],
+    "showTitleUrl": "shop3/Image_shop3_104.png",
+    "showUrl": "shop3/Image_shop3_56.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_147.png"
+  },
+  "Living01_Room4": {
+    "id": "Living01_Room4",
+    "tips": "",
+    "furniture": "Upgraded_4",
+    "shop": [
+      4,
+      0,
+      400
+    ],
+    "showTitleUrl": "shop3/Image_shop3_109.png",
+    "showUrl": "shop3/Image_shop3_53.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_152.png"
+  },
+  "Living01_Room5": {
+    "id": "Living01_Room5",
+    "tips": "",
+    "furniture": "Upgraded_5",
+    "shop": [
+      5,
+      0,
+      500
+    ],
+    "showTitleUrl": "shop3/Image_shop3_93.png",
+    "showUrl": "shop3/Image_shop3_55.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_136.png"
+  },
+  "Living01_Room6": {
+    "id": "Living01_Room6",
+    "tips": "",
+    "furniture": "Upgraded_7",
+    "shop": [
+      6,
+      0,
+      600
+    ],
+    "showTitleUrl": "shop3/Image_shop3_89.png",
+    "showUrl": "shop3/Image_shop3_52.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_132.png"
+  },
+  "Living01_Room7": {
+    "id": "Living01_Room7",
+    "tips": "",
+    "furniture": "Upgraded_8",
+    "shop": [
+      7,
+      0,
+      700
+    ],
+    "showTitleUrl": "shop3/Image_shop3_108.png",
+    "showUrl": "shop3/Image_shop3_50.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_151.png"
+  },
+  "Bath01_Room1": {
+    "id": "Bath01_Room1",
+    "tips": "",
+    "furniture": "Area_1",
+    "shop": [
+      1,
+      0,
+      100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_91.png",
+    "showUrl": "shop3/Image_shop3_79.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_134.png"
+  },
+  "Bath01_Room2": {
+    "id": "Bath01_Room2",
+    "tips": "",
+    "furniture": "Area_2",
+    "shop": [
+      2,
+      0,
+      200
+    ],
+    "showTitleUrl": "shop3/Image_shop3_126.png",
+    "showUrl": "shop3/Image_shop3_84.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_172.png"
+  },
+  "Bath01_Room3": {
+    "id": "Bath01_Room3",
+    "tips": "",
+    "furniture": "Area_3",
+    "shop": [
+      3,
+      0,
+      300
+    ],
+    "showTitleUrl": "shop3/Image_shop3_90.png",
+    "showUrl": "shop3/Image_shop3_68.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_133.png"
+  },
+  "Bath01_Room4": {
+    "id": "Bath01_Room4",
+    "tips": "",
+    "furniture": "Area_4",
+    "shop": [
+      4,
+      0,
+      400
+    ],
+    "showTitleUrl": "shop3/Image_shop3_125.png",
+    "showUrl": "shop3/Image_shop3_83.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_171.png"
+  },
+  "Bath01_Room5": {
+    "id": "Bath01_Room5",
+    "tips": "",
+    "furniture": "Area_5",
+    "shop": [
+      5,
+      0,
+      500
+    ],
+    "showTitleUrl": "shop3/Image_shop3_124.png",
+    "showUrl": "shop3/Image_shop3_82.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_170.png"
+  },
+  "Bath01_Room6": {
+    "id": "Bath01_Room6",
+    "tips": "",
+    "furniture": "Area_6",
+    "shop": [
+      6,
+      0,
+      600
+    ],
+    "showTitleUrl": "shop3/Image_shop3_129.png",
+    "showUrl": "shop3/Image_shop3_80.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_169.png"
+  },
+  "Bath01_Room7": {
+    "id": "Bath01_Room7",
+    "tips": "",
+    "furniture": "Area_7",
+    "shop": [
+      7,
+      0,
+      700
+    ],
+    "showTitleUrl": "shop3/Image_shop3_107.png",
+    "showUrl": "shop3/Image_shop3_85.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_150.png"
+  },
+  "Bath01_Room8": {
+    "id": "Bath01_Room8",
+    "tips": "",
+    "furniture": "Area_8",
+    "shop": [
+      8,
+      0,
+      800
+    ],
+    "showTitleUrl": "shop3/Image_shop3_96.png",
+    "showUrl": "shop3/Image_shop3_81.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_139.png"
+  },
+  "Bed01_Room1": {
+    "id": "Bed01_Room1",
+    "tips": "",
+    "furniture": "Area_1",
+    "shop": [
+      1,
+      0,
+      100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_91.png",
+    "showUrl": "shop3/Image_shop3_60.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_134.png"
+  },
+  "Bed01_Room2": {
+    "id": "Bed01_Room2",
+    "tips": "",
+    "furniture": "Area_2",
+    "shop": [
+      1,
+      0,
+      200
+    ],
+    "showTitleUrl": "shop3/Image_shop3_111.png",
+    "showUrl": "shop3/Image_shop3_57.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_154.png"
+  },
+  "Bed01_Room3": {
+    "id": "Bed01_Room3",
+    "tips": "",
+    "furniture": "Area_3",
+    "shop": [
+      1,
+      0,
+      300
+    ],
+    "showTitleUrl": "shop3/Image_shop3_116.png",
+    "showUrl": "shop3/Image_shop3_66.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_160.png"
+  },
+  "Bed01_Room4": {
+    "id": "Bed01_Room4",
+    "tips": "",
+    "furniture": "Area_4",
+    "shop": [
+      1,
+      0,
+      400
+    ],
+    "showTitleUrl": "shop3/Image_shop3_114.png",
+    "showUrl": "shop3/Image_shop3_61.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_157.png"
+  },
+  "Bed01_Room5": {
+    "id": "Bed01_Room5",
+    "tips": "",
+    "furniture": "Area_5",
+    "shop": [
+      1,
+      0,
+      500
+    ],
+    "showTitleUrl": "shop3/Image_shop3_104.png",
+    "showUrl": "shop3/Image_shop3_65.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_147.png"
+  },
+  "Bed01_Room6": {
+    "id": "Bed01_Room6",
+    "tips": "",
+    "furniture": "Area_6",
+    "shop": [
+      1,
+      0,
+      600
+    ],
+    "showTitleUrl": "shop3/Image_shop3_106.png",
+    "showUrl": "shop3/Image_shop3_64.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_149.png"
+  },
+  "Bed01_Room7": {
+    "id": "Bed01_Room7",
+    "tips": "",
+    "furniture": "Area_7",
+    "shop": [
+      1,
+      0,
+      700
+    ],
+    "showTitleUrl": "shop3/Image_shop3_115.png",
+    "showUrl": "shop3/Image_shop3_62.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_158.png"
+  },
+  "Bed01_Room8": {
+    "id": "Bed01_Room8",
+    "tips": "",
+    "furniture": "Area_8",
+    "shop": [
+      1,
+      0,
+      800
+    ],
+    "showTitleUrl": "shop3/Image_shop3_103.png",
+    "showUrl": "shop3/Image_shop3_63.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_146.png"
+  },
+  "Bed01_Room9": {
+    "id": "Bed01_Room9",
+    "tips": "",
+    "furniture": "Area_9",
+    "shop": [
+      1,
+      0,
+      900
+    ],
+    "showTitleUrl": "shop3/Image_shop3_113.png",
+    "showUrl": "shop3/Image_shop3_59.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_156.png"
+  },
+  "Bed01_Room10": {
+    "id": "Bed01_Room10",
+    "tips": "",
+    "furniture": "Area_10",
+    "shop": [
+      1,
+      0,
+      1000
+    ],
+    "showTitleUrl": "shop3/Image_shop3_112.png",
+    "showUrl": "shop3/Image_shop3_58.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_155.png"
+  },
+  "Dining01_Room1": {
+    "id": "Dining01_Room1",
+    "tips": "",
+    "furniture": "Area_1",
+    "shop": [
+      1,
+      0,
+      100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_91.png",
+    "showUrl": "shop3/Image_shop3_28.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_134.png"
+  },
+  "Dining01_Room2": {
+    "id": "Dining01_Room2",
+    "tips": "",
+    "furniture": "Area_2",
+    "shop": [
+      1,
+      0,
+      200
+    ],
+    "showTitleUrl": "shop3/Image_shop3_89.png",
+    "showUrl": "shop3/Image_shop3_26.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_132.png"
+  },
+  "Dining01_Room3": {
+    "id": "Dining01_Room3",
+    "tips": "",
+    "furniture": "Area_3",
+    "shop": [
+      1,
+      0,
+      300
+    ],
+    "showTitleUrl": "shop3/Image_shop3_88.png",
+    "showUrl": "shop3/Image_shop3_25.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_131.png"
+  },
+  "Dining01_Room4": {
+    "id": "Dining01_Room4",
+    "tips": "",
+    "furniture": "Area_4",
+    "shop": [
+      1,
+      0,
+      400
+    ],
+    "showTitleUrl": "shop3/Image_shop3_97.png",
+    "showUrl": "shop3/Image_shop3_34.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_140.png"
+  },
+  "Dining01_Room5": {
+    "id": "Dining01_Room5",
+    "tips": "",
+    "furniture": "Area_5",
+    "shop": [
+      1,
+      0,
+      500
+    ],
+    "showTitleUrl": "shop3/Image_shop3_96.png",
+    "showUrl": "shop3/Image_shop3_33.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_139.png"
+  },
+  "Dining01_Room6": {
+    "id": "Dining01_Room6",
+    "tips": "",
+    "furniture": "Area_6",
+    "shop": [
+      1,
+      0,
+      600
+    ],
+    "showTitleUrl": "shop3/Image_shop3_93.png",
+    "showUrl": "shop3/Image_shop3_30.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_136.png"
+  },
+  "Dining01_Room7": {
+    "id": "Dining01_Room7",
+    "tips": "",
+    "furniture": "Area_7",
+    "shop": [
+      1,
+      0,
+      700
+    ],
+    "showTitleUrl": "shop3/Image_shop3_90.png",
+    "showUrl": "shop3/Image_shop3_27.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_133.png"
+  },
+  "Dining01_Room8": {
+    "id": "Dining01_Room8",
+    "tips": "",
+    "furniture": "Area_8",
+    "shop": [
+      1,
+      0,
+      800
+    ],
+    "showTitleUrl": "shop3/Image_shop3_95.png",
+    "showUrl": "shop3/Image_shop3_32.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_138.png"
+  },
+  "Dining01_Room9": {
+    "id": "Dining01_Room9",
+    "tips": "",
+    "furniture": "Area_9",
+    "shop": [
+      1,
+      0,
+      900
+    ],
+    "showTitleUrl": "shop3/Image_shop3_92.png",
+    "showUrl": "shop3/Image_shop3_29.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_135.png"
+  },
+  "Dining01_Room10": {
+    "id": "Dining01_Room10",
+    "tips": "",
+    "furniture": "Area_10",
+    "shop": [
+      1,
+      0,
+      1000
+    ],
+    "showTitleUrl": "shop3/Image_shop3_94.png",
+    "showUrl": "shop3/Image_shop3_31.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_137.png"
+  },
+  "Dining01_Room11": {
+    "id": "Dining01_Room11",
+    "tips": "",
+    "furniture": "Area_11",
+    "shop": [
+      1,
+      0,
+      1100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_98.png",
+    "showUrl": "shop3/Image_shop3_35.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_141.png"
+  },
+  "Entrance01_Room1": {
+    "id": "Entrance01_Room1",
+    "tips": "文竹",
+    "furniture": "Area_1",
+    "shop": [
+      1,
+      0,
+      100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_98.png",
+    "showUrl": "shop3/Image_shop3_35.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_141.png"
+  },
+  "Entrance01_Room2": {
+    "id": "Entrance01_Room2",
+    "tips": "地毯",
+    "furniture": "Area_2",
+    "shop": [
+      1,
+      0,
+      200
+    ],
+    "showTitleUrl": "shop3/Image_shop3_91.png",
+    "showUrl": "shop3/Image_shop3_87.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_134.png"
+  },
+  "Entrance01_Room3": {
+    "id": "Entrance01_Room3",
+    "tips": "绿植",
+    "furniture": "Area_3",
+    "shop": [
+      1,
+      0,
+      300
+    ],
+    "showTitleUrl": "shop3/Image_shop3_96.png",
+    "showUrl": "shop3/Image_shop3_29.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_139.png"
+  },
+  "Kitchen01_Room1": {
+    "id": "Kitchen01_Room1",
+    "tips": "",
+    "furniture": "Area_1",
+    "shop": [
+      1,
+      0,
+      100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_101.png",
+    "showUrl": "shop3/Image_shop3_40.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_144.png"
+  },
+  "Kitchen01_Room2": {
+    "id": "Kitchen01_Room2",
+    "tips": "",
+    "furniture": "Area_2",
+    "shop": [
+      1,
+      0,
+      200
+    ],
+    "showTitleUrl": "shop3/Image_shop3_100.png",
+    "showUrl": "shop3/Image_shop3_37.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_143.png"
+  },
+  "Kitchen01_Room3": {
+    "id": "Kitchen01_Room3",
+    "tips": "",
+    "furniture": "Area_3",
+    "shop": [
+      1,
+      0,
+      300
+    ],
+    "showTitleUrl": "shop3/Image_shop3_103.png",
+    "showUrl": "shop3/Image_shop3_42.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_146.png"
+  },
+  "Kitchen01_Room4": {
+    "id": "Kitchen01_Room4",
+    "tips": "",
+    "furniture": "Area_4",
+    "shop": [
+      1,
+      0,
+      400
+    ],
+    "showTitleUrl": "shop3/Image_shop3_99.png",
+    "showUrl": "shop3/Image_shop3_36.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_142.png"
+  },
+  "Kitchen01_Room5": {
+    "id": "Kitchen01_Room5",
+    "tips": "",
+    "furniture": "Area_5",
+    "shop": [
+      1,
+      0,
+      500
+    ],
+    "showTitleUrl": "shop3/Image_shop3_93.png",
+    "showUrl": "shop3/Image_shop3_38.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_136.png"
+  },
+  "Kitchen01_Room6": {
+    "id": "Kitchen01_Room6",
+    "tips": "",
+    "furniture": "Area_6",
+    "shop": [
+      1,
+      0,
+      600
+    ],
+    "showTitleUrl": "shop3/Image_shop3_102.png",
+    "showUrl": "shop3/Image_shop3_49.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_145.png"
+  },
+  "Kitchen01_Room7": {
+    "id": "Kitchen01_Room7",
+    "tips": "",
+    "furniture": "Area_7",
+    "shop": [
+      1,
+      0,
+      700
+    ],
+    "showTitleUrl": "shop3/Image_shop3_96.png",
+    "showUrl": "shop3/Image_shop3_39.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_139.png"
+  },
+  "Laundry01_Room1": {
+    "id": "Laundry01_Room1",
+    "tips": "",
+    "furniture": "Area_1",
+    "shop": [
+      1,
+      0,
+      100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_121.png",
+    "showUrl": "shop3/Image_shop3_75.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_166.png"
+  },
+  "Laundry01_Room2": {
+    "id": "Laundry01_Room2",
+    "tips": "",
+    "furniture": "Area_2",
+    "shop": [
+      1,
+      0,
+      200
+    ],
+    "showTitleUrl": "shop3/Image_shop3_117.png",
+    "showUrl": "shop3/Image_shop3_70.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_162.png"
+  },
+  "Laundry01_Room3": {
+    "id": "Laundry01_Room3",
+    "tips": "",
+    "furniture": "Area_3",
+    "shop": [
+      1,
+      0,
+      300
+    ],
+    "showTitleUrl": "shop3/Image_shop3_128.png",
+    "showUrl": "shop3/Image_shop3_67.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_161.png"
+  },
+  "Laundry01_Room4": {
+    "id": "Laundry01_Room4",
+    "tips": "",
+    "furniture": "Area_4",
+    "shop": [
+      1,
+      0,
+      400
+    ],
+    "showTitleUrl": "shop3/Image_shop3_91.png",
+    "showUrl": "shop3/Image_shop3_69.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_134.png"
+  },
+  "Laundry01_Room5": {
+    "id": "Laundry01_Room5",
+    "tips": "",
+    "furniture": "Area_5",
+    "shop": [
+      1,
+      0,
+      500
+    ],
+    "showTitleUrl": "shop3/Image_shop3_90.png",
+    "showUrl": "shop3/Image_shop3_68.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_133.png"
+  },
+  "Laundry01_Room6": {
+    "id": "Laundry01_Room6",
+    "tips": "",
+    "furniture": "Area_6",
+    "shop": [
+      1,
+      0,
+      600
+    ],
+    "showTitleUrl": "shop3/Image_shop3_123.png",
+    "showUrl": "shop3/Image_shop3_77.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_168.png"
+  },
+  "Laundry01_Room7": {
+    "id": "Laundry01_Room7",
+    "tips": "",
+    "furniture": "Area_7",
+    "shop": [
+      1,
+      0,
+      700
+    ],
+    "showTitleUrl": "shop3/Image_shop3_118.png",
+    "showUrl": "shop3/Image_shop3_71.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_163.png"
+  },
+  "Laundry01_Room8": {
+    "id": "Laundry01_Room8",
+    "tips": "",
+    "furniture": "Area_8",
+    "shop": [
+      1,
+      0,
+      800
+    ],
+    "showTitleUrl": "shop3/Image_shop3_122.png",
+    "showUrl": "shop3/Image_shop3_76.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_167.png"
+  },
+  "Laundry01_Room9": {
+    "id": "Laundry01_Room9",
+    "tips": "",
+    "furniture": "Area_9",
+    "shop": [
+      1,
+      0,
+      900
+    ],
+    "showTitleUrl": "shop3/Image_shop3_120.png",
+    "showUrl": "shop3/Image_shop3_74.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_165.png"
+  },
+  "Laundry01_Room10": {
+    "id": "Laundry01_Room10",
+    "tips": "",
+    "furniture": "Area_10",
+    "shop": [
+      1,
+      0,
+      1000
+    ],
+    "showTitleUrl": "shop3/Image_shop3_96.png",
+    "showUrl": "shop3/Image_shop3_73.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_139.png"
+  },
+  "Laundry01_Room11": {
+    "id": "Laundry01_Room11",
+    "tips": "",
+    "furniture": "Area_11",
+    "shop": [
+      1,
+      0,
+      1100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_119.png",
+    "showUrl": "shop3/Image_shop3_72.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_164.png"
+  },
+  "Library01_Room1": {
+    "id": "Library01_Room1",
+    "tips": "",
+    "furniture": "Area_1",
+    "shop": [
+      1,
+      0,
+      100
+    ],
+    "showTitleUrl": "shop3/Image_shop3_105.png",
+    "showUrl": "shop3/Image_shop3_47.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_148.png"
+  },
+  "Library01_Room2": {
+    "id": "Library01_Room2",
+    "tips": "",
+    "furniture": "Area_2",
+    "shop": [
+      1,
+      0,
+      200
+    ],
+    "showTitleUrl": "shop3/Image_shop3_108.png",
+    "showUrl": "shop3/Image_shop3_45.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_151.png"
+  },
+  "Library01_Room3": {
+    "id": "Library01_Room3",
+    "tips": "",
+    "furniture": "Area_3",
+    "shop": [
+      1,
+      0,
+      300
+    ],
+    "showTitleUrl": "shop3/Image_shop3_91.png",
+    "showUrl": "shop3/Image_shop3_44.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_134.png"
+  },
+  "Library01_Room4": {
+    "id": "Library01_Room4",
+    "tips": "",
+    "furniture": "Area_4",
+    "shop": [
+      1,
+      0,
+      400
+    ],
+    "showTitleUrl": "shop3/Image_shop3_107.png",
+    "showUrl": "shop3/Image_shop3_41.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_150.png"
+  },
+  "Library01_Room5": {
+    "id": "Library01_Room5",
+    "tips": "",
+    "furniture": "Area_5",
+    "shop": [
+      1,
+      0,
+      500
+    ],
+    "showTitleUrl": "shop3/Image_shop3_104.png",
+    "showUrl": "shop3/Image_shop3_46.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_147.png"
+  },
+  "Library01_Room6": {
+    "id": "Library01_Room6",
+    "tips": "",
+    "furniture": "Area_6",
+    "shop": [
+      1,
+      0,
+      600
+    ],
+    "showTitleUrl": "shop3/Image_shop3_106.png",
+    "showUrl": "shop3/Image_shop3_48.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_149.png"
+  },
+  "Library01_Room7": {
+    "id": "Library01_Room7",
+    "tips": "",
+    "furniture": "Area_7",
+    "shop": [
+      1,
+      0,
+      700
+    ],
+    "showTitleUrl": "shop3/Image_shop3_90.png",
+    "showUrl": "shop3/Image_shop3_43.png",
+    "furnitureTipsUrl": "shop3/Image_shop3_133.png"
+  }
+}

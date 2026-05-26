@@ -1,0 +1,26 @@
+{
+  "20001": {
+    "id": 20001,
+    "name": "Package",
+    "propIcon": "res/game/img_crunch.png",
+    "propType": "Pack",
+    "price": 100,
+    "desc": "Pack the selected furniture into a mini-box"
+  },
+  "20002": {
+    "id": 20002,
+    "name": "Auto",
+    "propIcon": "res/game/img_auto-fitter.png",
+    "propType": "AutoFit",
+    "price": 50,
+    "desc": "Find possible locations for the selected furniture"
+  },
+  "20003": {
+    "id": 20003,
+    "name": "Add space",
+    "propIcon": "res/game/img_addlayer.png",
+    "propType": "MoreSpace",
+    "price": 150,
+    "desc": "Increase the capacity of the truck to get more space"
+  }
+}

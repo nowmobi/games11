@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Puzzle Challenge</title>
+    <style>
+        /* All previous CSS remains unchanged */
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --success: #2ecc71;
+            --danger: #e74c3c;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #1abc9c, #3498db);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .difficulty-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: var(--secondary);
+            color: white;
+        }
+
+        .game-area {
+            display: grid;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .question-box {
+            background: var(--primary);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 24px;
+            position: relative;
+            min-height: 120px;
+        }
+
+        #questionText {
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .timer-bar {
+            height: 5px;
+            background: var(--success);
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transition: width 1s linear;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .option-btn {
+            padding: 15px;
+            font-size: 18px;
+            background: #f1f2f6;
+            border: 2px solid transparent;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .option-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .score-board {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 25px 50px;
+            border-radius: 15px;
+            color: white;
+            font-size: 24px;
+            z-index: 1000;
+            display: none;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .correct-popup {
+            background: var(--success);
+        }
+
+        .incorrect-popup {
+            background: var(--danger);
+        }
+
+        @media (max-width: 600px) {
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+            .question-box {
+                font-size: 20px;
+                padding: 15px;
+            }
+            .option-btn {
+                font-size: 16px;
+                padding: 12px;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        window.SDK_OPTIONS = {
+            gameId: "957bqqitfu4vl125quilg91sdop975bj",
+            onEvent: function(event) {
+                switch(event.name) {
+                    case "SDK_GAME_PAUSE":
+                        pauseGame();
+                        muteAudio();
+                        break;
+                    case "SDK_GAME_START":
+                        resumeGame();
+                        unmuteAudio();
+                        break;
+                    case "SDK_READY":
+                        console.log("SDK Initialized");
+                        break;
+                }
+            }
+        };
+        (function(d, t, id) {
+            var s = d.createElement(t);
+            s.id = id;
+            s.src = "https://api.gamemonetize.com/sdk.js";
+            d.getElementsByTagName(t)[0].parentNode.insertBefore(s, d.getElementsByTagName(t)[0]);
+        })(document, "script", "gamemonetize-sdk");
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧮 Math Challenge</h1>
+            <button class="btn-primary" id="pauseBtn">⏸ Pause</button>
+        </div>
+        
+        <div class="difficulty-selector">
+            <button class="btn-primary" data-difficulty="easy">Easy</button>
+            <button class="btn-primary" data-difficulty="medium">Medium</button>
+            <button class="btn-primary" data-difficulty="hard">Hard</button>
+        </div>
+
+        <div class="score-board">
+            <div>Score: <span id="score">0</span></div>
+            <div>Level: <span id="level">1</span></div>
+            <div>Time Left: <span id="timer">30</span>s</div>
+        </div>
+
+        <div class="game-area">
+            <div class="question-box" id="question">
+                <span id="questionText"></span>
+                <div class="timer-bar" id="timerBar"></div>
+            </div>
+            <div class="options-grid" id="options"></div>
+        </div>
+
+        <div class="popup" id="resultPopup"></div>
+    </div>
+
+    <script>
+        // Game State
+        let score = 0;
+        let level = 1;
+        let answerCount = 0;
+        let currentDifficulty = 'easy';
+        let gameActive = true;
+        let currentProblem = null;
+        let timer;
+        let timeLeft = 30;
+        let pausedTimeLeft = 0;
+        let isMuted = false;
+
+        // Game Settings
+        const scoreSettings = {
+            easy: { correct: 10, wrong: -5, time: 30 },
+            medium: { correct: 20, wrong: -10, time: 25 },
+            hard: { correct: 30, wrong: -15, time: 20 }
+        };
+
+        const operations = {
+            easy: ['+', '-'],
+            medium: ['+', '-', '*'],
+            hard: ['+', '-', '*', '/']
+        };
+
+        // SDK Functions
+        function muteAudio() {
+            isMuted = true;
+            console.log('Audio muted');
+        }
+
+        function unmuteAudio() {
+            isMuted = false;
+            console.log('Audio unmuted');
+        }
+
+        function showAd() {
+            if (typeof sdk !== 'undefined') {
+                try {
+                    console.log('Attempting to show ads');
+                    if(sdk.showBanner) sdk.showBanner();
+                    if(sdk.showInterstitial) sdk.showInterstitial();
+                } catch(e) {
+                    console.error('Ad error:', e);
+                }
+            }
+        }
+
+        // Game Functions
+        function startTimer(reset = true) {
+            clearInterval(timer);
+            if (reset) timeLeft = scoreSettings[currentDifficulty].time;
+            document.getElementById('timer').textContent = timeLeft;
+            document.getElementById('timerBar').style.width = '100%';
+
+            timer = setInterval(() => {
+                if (gameActive) {
+                    timeLeft--;
+                    document.getElementById('timer').textContent = timeLeft;
+                    document.getElementById('timerBar').style.width = 
+                        `${(timeLeft / scoreSettings[currentDifficulty].time) * 100}%`;
+
+                    if (timeLeft <= 0) handleTimeout();
+                }
+            }, 1000);
+        }
+
+        function handleTimeout() {
+            clearInterval(timer);
+            answerCount++;
+            console.log('Timeout - Answer count:', answerCount);
+            updateScore(scoreSettings[currentDifficulty].wrong);
+            showPopup(false);
+            checkAdCondition();
+            generateNewProblem();
+        }
+
+        function generateProblem(difficulty) {
+            let num1, num2, operation;
+            switch(difficulty) {
+                case 'easy':
+                    num1 = Math.floor(Math.random() * 10) + 1;
+                    num2 = Math.floor(Math.random() * 10) + 1;
+                    operation = operations.easy[Math.floor(Math.random() * operations.easy.length)];
+                    break;
+                case 'medium':
+                    num1 = Math.floor(Math.random() * 20) + 1;
+                    num2 = Math.floor(Math.random() * 20) + 1;
+                    operation = operations.medium[Math.floor(Math.random() * operations.medium.length)];
+                    break;
+                case 'hard':
+                    num1 = Math.floor(Math.random() * 50) + 1;
+                    num2 = Math.floor(Math.random() * 50) + 1;
+                    operation = operations.hard[Math.floor(Math.random() * operations.hard.length)];
+                    if(operation === '/') num1 = num1 * num2;
+                    break;
+            }
+            return { num1, num2, operation };
+        }
+
+        function calculateAnswer(problem) {
+            switch(problem.operation) {
+                case '+': return problem.num1 + problem.num2;
+                case '-': return problem.num1 - problem.num2;
+                case '*': return problem.num1 * problem.num2;
+                case '/': return problem.num1 / problem.num2;
+            }
+        }
+
+        function updateGameUI() {
+            document.getElementById('score').textContent = score;
+            document.getElementById('level').textContent = level;
+            
+            const questionTextEl = document.getElementById('questionText');
+            const optionsEl = document.getElementById('options');
+            const correctAnswer = calculateAnswer(currentProblem);
+
+            questionTextEl.textContent = `${currentProblem.num1} ${currentProblem.operation} ${currentProblem.num2} = ?`;
+            
+            optionsEl.innerHTML = '';
+            const answers = [correctAnswer];
+            
+            while(answers.length < 4) {
+                let offset = Math.floor(Math.random() * 5) + 1;
+                let wrongAnswer = correctAnswer + (Math.random() < 0.5 ? -offset : offset);
+                if(wrongAnswer !== correctAnswer && !answers.includes(wrongAnswer)) {
+                    answers.push(wrongAnswer);
+                }
+            }
+            
+            answers.sort(() => Math.random() - 0.5);
+            
+            answers.forEach(answer => {
+                const button = document.createElement('button');
+                button.className = 'option-btn';
+                button.textContent = answer;
+                button.onclick = () => checkAnswer(answer === correctAnswer);
+                optionsEl.appendChild(button);
+            });
+
+            startTimer();
+        }
+
+        function showPopup(isCorrect) {
+            const popup = document.getElementById('resultPopup');
+            popup.textContent = isCorrect ? 'Correct! 🎉' : 'Wrong! 😞';
+            popup.className = `popup ${isCorrect ? 'correct-popup' : 'incorrect-popup'}`;
+            popup.style.display = 'block';
+            setTimeout(() => popup.style.display = 'none', 1000);
+        }
+
+        function checkAdCondition() {
+            console.log('Checking ad condition at answer:', answerCount);
+            if (answerCount % 10 === 0 && answerCount > 0) {
+                console.log('Showing ad at answer count:', answerCount);
+                showAd();
+            }
+        }
+
+        function updateScore(points) {
+            score = Math.max(0, score + points);
+            document.getElementById('score').textContent = score;
+        }
+
+        function checkAnswer(isCorrect) {
+            if(!gameActive) return;
+            
+            answerCount++;
+            console.log('New answer count:', answerCount);
+            clearInterval(timer);
+
+            if(isCorrect) {
+                updateScore(scoreSettings[currentDifficulty].correct);
+                level++;
+                showPopup(true);
+            } else {
+                updateScore(scoreSettings[currentDifficulty].wrong);
+                level = Math.max(1, level - 1);
+                showPopup(false);
+            }
+
+            checkAdCondition();
+            generateNewProblem();
+        }
+
+        function generateNewProblem() {
+            currentProblem = generateProblem(currentDifficulty);
+            updateGameUI();
+        }
+
+        function pauseGame() {
+            gameActive = false;
+            pausedTimeLeft = timeLeft;
+            clearInterval(timer);
+            document.getElementById('pauseBtn').textContent = '▶ Resume';
+        }
+
+        function resumeGame() {
+            gameActive = true;
+            timeLeft = pausedTimeLeft;
+            document.getElementById('pauseBtn').textContent = '⏸ Pause';
+            startTimer(false);
+        }
+
+        // Event Listeners
+        document.querySelectorAll('[data-difficulty]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                console.log('Difficulty changed - resetting counters');
+                currentDifficulty = btn.dataset.difficulty;
+                level = 1;
+                score = 0;
+                answerCount = 0; // Explicit counter reset
+                document.getElementById('score').textContent = 0;
+                document.getElementById('level').textContent = 1;
+                generateNewProblem();
+            });
+        });
+
+        document.getElementById('pauseBtn').addEventListener('click', () => {
+            gameActive ? pauseGame() : resumeGame();
+        });
+
+        // Initialize Game
+        currentProblem = generateProblem(currentDifficulty);
+        updateGameUI();
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "type": "Image",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 96,
+    "var": "img_moreGameBtn",
+    "skin": "res/img_moreGame.png",
+    "presetID": 1,
+    "name": "img_moreGameBtn",
+    "isPresetRoot": true,
+    "height": 91
+  },
+  "compId": 367,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": -2,
+        "x": 67,
+        "width": 27,
+        "skin": "res/popularizeRes/moreGame_19.png",
+        "presetID": 3
+      },
+      "compId": 369
+    },
+    {
+      "type": "Script",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "presetID": 2,
+        "runtime": "modules/WXExportAd/MoreGameBtnScript.ts"
+      },
+      "compId": 368
+    }
+  ],
+  "loadList": [
+    "res/img_moreGame.png",
+    "res/popularizeRes/moreGame_19.png"
+  ],
+  "loadList3D": []
+}

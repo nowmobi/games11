@@ -1,0 +1,38 @@
+{
+	"version":"LAYAHIERARCHY:02",
+	"data":{
+		"type":"MeshSprite3D",
+		"instanceID":251,
+		"props":{
+			"name":"Plane3",
+			"active":true,
+			"isStatic":false,
+			"layer":0,
+			"position":[
+				-16.26,
+				6.75,
+				0.07000017
+			],
+			"rotation":[
+				0,
+				0,
+				0,
+				-1
+			],
+			"scale":[
+				1,
+				1,
+				1
+			],
+			"meshPath":"Library/unity default resources-Cube.lm",
+			"enableRender":true,
+			"materials":[
+				{
+					"path":"Assets/Player/Materials/Plane3.lmat"
+				}
+			]
+		},
+		"components":[],
+		"child":[]
+	}
+}

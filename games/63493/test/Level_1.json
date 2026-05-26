@@ -1,0 +1,11 @@
+{
+  "compId": 2,
+  "type": "Scene",
+  "props": {
+    "width": 1280,
+    "runtime": "script/game/PanelGameRun.ts",
+    "height": 720
+  },
+  "loadList": [],
+  "loadList3D": []
+}

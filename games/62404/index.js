@@ -1,0 +1,15 @@
+window.screenOrientation = "portrait", 
+    loadLib("./libs/laya.core.js"),
+//      loadLib("./libs/laya.ani.js"),
+//  loadLib("./libs/laya.ui.js"),
+//   loadLib("./libs/laya.d3.js"),
+//    loadLib("./libs/laya.physics.js"), 
+//    loadLib("./libs/laya.physics3D.js"),
+//    loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.core.js"),
+   loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.ani.js"),
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.d3.js"),
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.physics.js"),
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.physics3D.js"),
+loadLib("https://h5gamessdk.yyggames.com/sdk/laya/2.9.0/laya.ui.js"),
+  
+ loadLib("./js/main.js");

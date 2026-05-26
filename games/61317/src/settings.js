@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-desktop",groupList:["default","attached_node","board_node"],collisionMatrix:[[false],[false,false,false],[false,false,false]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/main/mian.fire",orientation:"",jsList:["assets/scripts/libs/GlobalFunc.js","assets/scripts/typescript.js"]};

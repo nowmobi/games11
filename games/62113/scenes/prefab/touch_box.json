@@ -1,0 +1,29 @@
+{
+  "type": "Box",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "top": 0,
+    "right": 0,
+    "presetID": 1,
+    "name": "touch_box",
+    "left": 0,
+    "isPresetRoot": true,
+    "bottom": 0,
+    "anchorY": 0.5,
+    "anchorX": 0.5
+  },
+  "compId": 21,
+  "child": [
+    {
+      "type": "Script",
+      "props": {
+        "presetID": 2,
+        "runtime": "modules/TouchAdModules/TouchAdScript.ts"
+      },
+      "compId": 22
+    }
+  ],
+  "loadList": [],
+  "loadList3D": []
+}

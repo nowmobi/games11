@@ -1,0 +1,67 @@
+{
+  "res/atlas/gx.atlas": [
+    "gx/",
+    [
+      "bg_banner_02.png",
+      "bt_banner_01.png",
+      "bt_banner_02.png",
+      "bt_chaping_01.png",
+      "bt_chaping_02.png",
+      "img_close2.png",
+      "img_title_bg2.png"
+    ]
+  ],
+  "res/atlas/image.atlas": [
+    "image/",
+    [
+      "icon.png"
+    ]
+  ],
+  "res/atlas/Loading.atlas": [
+    "Loading/",
+    [
+      "jd.png",
+      "logo.png"
+    ]
+  ],
+  "res/atlas/spine/girl.atlas": [
+    "spine/girl/",
+    [
+      "girl.png"
+    ]
+  ],
+  "res/atlas/spine/wen1.atlas": [
+    "spine/wen1/",
+    [
+      "wen1.png"
+    ]
+  ],
+  "res/atlas/spine/wen2.atlas": [
+    "spine/wen2/",
+    [
+      "wen2.png"
+    ]
+  ],
+  "res/atlas/spine.atlas": [
+    "spine/",
+    [
+      "wen1.png"
+    ]
+  ],
+  "spine/girl/girl.json": [
+    "spine/girl/girl/",
+    []
+  ],
+  "spine/Up/up.json": [
+    "spine/Up/up/",
+    []
+  ],
+  "spine/wen1/wen1.json": [
+    "spine/wen1/wen1/",
+    []
+  ],
+  "spine/wen2/wen2.json": [
+    "spine/wen2/wen2/",
+    []
+  ]
+}

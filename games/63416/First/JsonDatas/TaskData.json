@@ -1,0 +1,216 @@
+{
+  "Living01_Room": {
+    "id": "Living01_Room",
+    "tips": "客厅",
+    "furniture": [
+      "Upgraded_1",
+      "Upgraded_2",
+      "Upgraded_3",
+      "Upgraded_4",
+      "Upgraded_5",
+      "Upgraded_7",
+      "Upgraded_8"
+    ],
+    "gold": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "showBgUrl": "renwu/Image_renwu_05.png",
+    "showTitleUrl": "renwu/Image_renwu_12.png",
+    "showTipsUrl": "renwu/Image_renwu_14.png"
+  },
+  "Bath01_Room": {
+    "id": "Bath01_Room",
+    "tips": "浴室",
+    "furniture": [
+      "Area_1",
+      "Area_2",
+      "Area_3",
+      "Area_4",
+      "Area_5",
+      "Area_6",
+      "Area_7",
+      "Area_8"
+    ],
+    "gold": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "showBgUrl": "renwu/Image_renwu_05.png",
+    "showTitleUrl": "renwu/Image_renwu_06.png",
+    "showTipsUrl": "renwu/Image_renwu_14.png"
+  },
+  "Bed01_Room": {
+    "id": "Bed01_Room",
+    "tips": "卧室",
+    "furniture": [
+      "Area_1",
+      "Area_2",
+      "Area_3",
+      "Area_4",
+      "Area_5",
+      "Area_6",
+      "Area_7",
+      "Area_8",
+      "Area_9",
+      "Area_10"
+    ],
+    "gold": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000
+    ],
+    "showBgUrl": "",
+    "showTitleUrl": "renwu/Image_renwu_07.png",
+    "showTipsUrl": ""
+  },
+  "Dining01_Room": {
+    "id": "Dining01_Room",
+    "tips": "餐厅",
+    "furniture": [
+      "Area_1",
+      "Area_2",
+      "Area_3",
+      "Area_4",
+      "Area_5",
+      "Area_6",
+      "Area_7",
+      "Area_8",
+      "Area_9",
+      "Area_10",
+      "Area_11"
+    ],
+    "gold": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000,
+      1100
+    ],
+    "showBgUrl": "",
+    "showTitleUrl": "renwu/Image_renwu_08.png",
+    "showTipsUrl": ""
+  },
+  "Entrance01_Room": {
+    "id": "Entrance01_Room",
+    "tips": "门厅",
+    "furniture": [
+      "Area_1",
+      "Area_2"
+    ],
+    "gold": [
+      100,
+      200
+    ],
+    "showBgUrl": "",
+    "showTitleUrl": "renwu/Image_renwu_09.png",
+    "showTipsUrl": ""
+  },
+  "Kitchen01_Room": {
+    "id": "Kitchen01_Room",
+    "tips": "厨房",
+    "furniture": [
+      "Area_1",
+      "Area_2",
+      "Area_3",
+      "Area_4",
+      "Area_5",
+      "Area_6",
+      "Area_7"
+    ],
+    "gold": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "showBgUrl": "",
+    "showTitleUrl": "renwu/Image_renwu_10.png",
+    "showTipsUrl": ""
+  },
+  "Laundry01_Room": {
+    "id": "Laundry01_Room",
+    "tips": "洗衣间",
+    "furniture": [
+      "Area_1",
+      "Area_2",
+      "Area_3",
+      "Area_4",
+      "Area_5",
+      "Area_6",
+      "Area_7",
+      "Area_8",
+      "Area_9",
+      "Area_10",
+      "Area_11"
+    ],
+    "gold": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000,
+      1100
+    ],
+    "showBgUrl": "",
+    "showTitleUrl": "renwu/Image_renwu_11.png",
+    "showTipsUrl": ""
+  },
+  "Library01_Room": {
+    "id": "Library01_Room",
+    "tips": "大厅",
+    "furniture": [
+      "Area_1",
+      "Area_2",
+      "Area_3",
+      "Area_4",
+      "Area_5",
+      "Area_6",
+      "Area_7"
+    ],
+    "gold": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "showBgUrl": "",
+    "showTitleUrl": "renwu/Image_renwu_13.png",
+    "showTipsUrl": ""
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "files": {
+    "atlas/BitmapFonts": [
+      "cure_0.png",
+      "cure_1.png",
+      "cure_2.png",
+      "cure_3.png",
+      "cure_4.png",
+      "cure_5.png",
+      "cure_6.png",
+      "cure_7.png",
+      "cure_8.png",
+      "cure_9.png",
+      "gnum1.png",
+      "gnum2.png",
+      "gnum3.png",
+      "gnum4.png",
+      "gnum5.png",
+      "gnum6.png",
+      "gnum7.png",
+      "hurtC_0.png",
+      "hurtC_1.png",
+      "hurtC_2.png",
+      "hurtC_3.png",
+      "hurtC_4.png",
+      "hurtC_5.png",
+      "hurtC_6.png",
+      "hurtC_7.png",
+      "hurtC_8.png",
+      "hurtC_9.png",
+      "hurtC_cri.png",
+      "hurtC_miss.png",
+      "hurtC_point.png"
+    ],
+    "atlas/DefaultUI": [
+      "age12.png",
+      "alertBg.png",
+      "alertBg1_btn.png",
+      "alertBg1_line.png",
+      "alertBg1_line2.png",
+      "alertBg1_rec.png",
+      "alertSmall.png",
+      "btnBack.png",
+      "btnClose.png",
+      "btnRight.png",
+      "btnSearch.png",
+      "circle.png",
+      "iconAD.png",
+      "iconAdd.png",
+      "lineInAlertArea.png",
+      "loading.png",
+      "mine_license.png",
+      "pbCir.png",
+      "rightArrow.png",
+      "sbtn_title2.png",
+      "sbtn_title3.png",
+      "sbtn_title4.png",
+      "slidebarrec_bar.png",
+      "slidebarrec_bg.png",
+      "tailrec.png",
+      "user_goldbg.png",
+      "viewWinBg.png",
+      "whitePbS.png",
+      "whitePbS2.png",
+      "whiteRecbg.png",
+      "win_alert_icon_no.png",
+      "win_alert_icon_ok.png"
+    ],
+    "atlas/comp": [
+      "image.png"
+    ],
+    "resources": [
+      "bgIndex.jpg",
+      "GoldFont.png",
+      "HurtFont.png",
+      "layaAir.png",
+      "MissionFont.png",
+      "titlefont.png"
+    ],
+    "resources/Login": [
+      "btn_tapLogin.png",
+      "title.png",
+      "title4399.png",
+      "titleEn.png",
+      "titlename.png"
+    ],
+    "resources/guide": [
+      "guider_talkicon.png"
+    ],
+    "resources/icons": [
+      "gem.png",
+      "gold.png",
+      "iconSearch.png",
+      "iconWenhao.png",
+      "playerHp.png",
+      "star.png",
+      "start2_off.png",
+      "start2_on.png"
+    ],
+    "resources/ui": [
+      "btnStart.png",
+      "GreenArea.png",
+      "loadingSmallBg.png"
+    ]
+  },
+  "config": [
+    {
+      "type": 2,
+      "sRGB": true,
+      "wrapMode": 1,
+      "filterMode": 1,
+      "anisoLevel": 1,
+      "mipmap": false,
+      "pma": true,
+      "files": [
+        {
+          "file": "",
+          "format": 1,
+          "ext": "png"
+        }
+      ],
+      "platforms": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "t": 0,
+      "i": [
+        0,
+        -62,
+        64,
+        -21
+      ]
+    },
+    {
+      "type": 2,
+      "sRGB": true,
+      "wrapMode": 1,
+      "filterMode": 1,
+      "anisoLevel": 1,
+      "mipmap": false,
+      "pma": true,
+      "files": [
+        {
+          "file": "",
+          "format": 1,
+          "ext": "jpg"
+        }
+      ],
+      "platforms": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "t": 0,
+      "i": 63
+    }
+  ]
+}

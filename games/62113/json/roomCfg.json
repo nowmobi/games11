@@ -1,0 +1,18 @@
+{
+  "1": {
+    "id": 1,
+    "path": "res3d/Room1.ls"
+  },
+  "2": {
+    "id": 2,
+    "path": "res3d/Room2.ls"
+  },
+  "3": {
+    "id": 3,
+    "path": "res3d/Room3.ls"
+  },
+  "4": {
+    "id": 4,
+    "path": "res3d/Room4.ls"
+  }
+}

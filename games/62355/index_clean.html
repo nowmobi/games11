@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | SaveMyPet</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <style>
+      /* Centered Loading Screen */
+      #custom-loading-screen {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      /* Rotating "VODOGAME" Text */
+      #loading-text {
+        font-size: 50px;
+        font-weight: bold;
+        color: yellow;
+        text-shadow: 2px 2px 5px black;
+        animation: rotateText 3s linear infinite;
+      }
+
+      @keyframes rotateText {
+        0% { transform: rotateY(0deg); }
+        100% { transform: rotateY(360deg); }
+      }
+
+      /* Fading Dots Animation */
+      #loading-dots span {
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        animation: fadeDots 1.5s infinite;
+        opacity: 0;
+      }
+
+      #loading-dots span:nth-child(1) { animation-delay: 0s; }
+      #loading-dots span:nth-child(2) { animation-delay: 0.3s; }
+      #loading-dots span:nth-child(3) { animation-delay: 0.6s; }
+      #loading-dots span:nth-child(4) { animation-delay: 0.9s; }
+      #loading-dots span:nth-child(5) { animation-delay: 1.2s; }
+
+      @keyframes fadeDots {
+        0% { opacity: 0; }
+        50% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+    </style>
+  
+    <style>
+      /* 隐藏所有广告容器 */
+      #imaContainer,
+      #imaContainer_new,
+      #sdk__advertisement,
+      #gmLoadingText,
+      iframe[src*="imasdk"],
+      iframe[src*="doubleclick"],
+      iframe[src*="googlesyndication"],
+      iframe[title="Advertisement"],
+      div[id*="google_ads"],
+      div[id*="aswift"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+    </style>
+    <script>
+      // 定期清除动态插入的广告元素
+      setInterval(function() {
+        var adSelectors = [
+          '#imaContainer',
+          '#imaContainer_new', 
+          '#sdk__advertisement',
+          '#gmLoadingText',
+          'iframe[src*="imasdk"]',
+          'iframe[src*="doubleclick"]',
+          'iframe[src*="googlesyndication"]',
+          'iframe[title="Advertisement"]',
+          'div[id*="google_ads"]',
+          'div[id*="aswift"]'
+        ];
+        
+        adSelectors.forEach(function(selector) {
+          var elements = document.querySelectorAll(selector);
+          elements.forEach(function(el) {
+            if (el && el.parentNode) {
+              el.parentNode.removeChild(el);
+            }
+          });
+        });
+
+        // 阻止广告SDK函数
+        if (window.sdk_init) window.sdk_init = function() {};
+        if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
+        if (window.adBreak) window.adBreak = function() {};
+        if (window.adConfig) window.adConfig = function() {};
+      }, 500);
+    </script>
+
+  </head>
+  <body>
+    <div id="unity-container">
+      <canvas id="unity-canvas" width=350 height=600 tabindex="-1"></canvas>
+      <div id="custom-loading-screen">
+        <div id="loading-text">VODOGAME</div>
+        <div id="loading-dots">
+          <span>.</span><span>.</span><span>.</span><span>.</span><span>.</span>
+        </div>
+      </div>
+      <div id="unity-warning"></div>
+    </div>
+    <script>
+      function Resize() {
+        var ratio = Math.min(window.innerWidth / 350, window.innerHeight / 600);
+        document.querySelector("#unity-canvas").style.maxWidth = (350 * ratio) + 'px';
+        document.querySelector("#unity-canvas").style.maxHeight = (600 * ratio) + 'px';
+      }
+
+      Resize();
+      window.onresize = function(event) {
+        Resize();
+      };
+
+      window.addEventListener("load", function () {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("ServiceWorker.js");
+        }
+      });
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingScreen = document.querySelector("#custom-loading-screen");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/puzzle.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/puzzle.data",
+        frameworkUrl: buildUrl + "/puzzle.framework.js",
+        codeUrl: buildUrl + "/puzzle.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "FoxGames",
+        productName: "SaveMyPet",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+      }
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          if (progress === 1) {
+            loadingScreen.style.display = "none"; // Hide custom loader when Unity loads
+          }
+        }).then((unityInstance) => {
+          loadingScreen.style.display = "none";
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>

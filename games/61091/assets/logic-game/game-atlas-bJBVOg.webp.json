@@ -1,0 +1,376 @@
+{
+  "frames": {
+    "white-pawn": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 66,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 8,
+        "w": 66,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "white-king": {
+      "frame": {
+        "x": 70,
+        "y": 2,
+        "w": 90,
+        "h": 88
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 6,
+        "w": 90,
+        "h": 88
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "white-king-simple": {
+      "frame": {
+        "x": 2,
+        "y": 92,
+        "w": 90,
+        "h": 89
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 90,
+        "h": 89
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "shelf-block-he": {
+      "frame": {
+        "x": 162,
+        "y": 2,
+        "w": 115,
+        "h": 100
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 115,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 100
+      }
+    },
+    "shelf-block-he-king": {
+      "frame": {
+        "x": 2,
+        "y": 183,
+        "w": 115,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 115,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 100
+      }
+    },
+    "block-simple": {
+      "frame": {
+        "x": 119,
+        "y": 119,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-king-edge": {
+      "frame": {
+        "x": 264,
+        "y": 2,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-king-edge-highlight-last-move": {
+      "frame": {
+        "x": 264,
+        "y": 104,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-king-edge-highlight-last-help": {
+      "frame": {
+        "x": 2,
+        "y": 285,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-king-cent": {
+      "frame": {
+        "x": 104,
+        "y": 285,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-king-cent-highlight-last-move": {
+      "frame": {
+        "x": 221,
+        "y": 206,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-king-cent-highlight-last-help": {
+      "frame": {
+        "x": 366,
+        "y": 2,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-highlight-last-move": {
+      "frame": {
+        "x": 366,
+        "y": 104,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-highlight-last-help": {
+      "frame": {
+        "x": 323,
+        "y": 206,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-edge": {
+      "frame": {
+        "x": 2,
+        "y": 387,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-edge-highlight-last-move": {
+      "frame": {
+        "x": 104,
+        "y": 387,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "block-edge-highlight-last-help": {
+      "frame": {
+        "x": 206,
+        "y": 308,
+        "w": 100,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    },
+    "black-pawn": {
+      "frame": {
+        "x": 119,
+        "y": 221,
+        "w": 62,
+        "h": 80
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 10,
+        "w": 62,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 100
+      }
+    }
+  },
+  "meta": {
+    "app": "http://github.com/pixijs/assetpack",
+    "version": "1.0",
+    "image": "game-atlas-ZNP_pQ.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 468,
+      "h": 489
+    },
+    "scale": 1,
+    "related_multi_packs": []
+  }
+}
