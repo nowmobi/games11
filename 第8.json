@@ -631,42 +631,6 @@
     "rating": 4.2
   },
   {
-    "id": 59938,
-    "description": "Welcome to Sprunki Jigsaw Puzzle Game! Drag and drop the Sprunki Jigsaw pieces to complete the amazing pictures. Challenge your brain! Start with the edges and remember the colors in the pictures to finish quickly. Can you solve all the puzzles?",
-    "instructions": "Mouse click or tap to play",
-    "category": "puzzle",
-    "tags": [
-      "Jigsaw",
-      "Puzzle",
-      "Sprunki"
-    ],
-    "name": "Sprunki Jigsaw Puzzle",
-    "image": "https://img.gamemonetize.com/135nsbm8dq5vivwk71a9tg9g7jjqstst/512x384.jpg",
-    "downloads": "8.0K",
-    "rating": 3.9
-  },
-  {
-    "id": 59983,
-    "name": "Talking Santa Claus",
-    "description": "Talking Santa Claus is a delightful and free online game designed especially for kids. Simply type a message, and watch as Santa speaks your words! Explore additional mini-games for even more fun and entertainment.",
-    "instructions": "Mouse to play ",
-    "category": "adventure",
-    "tags": [
-      "Avoid",
-      "Christmas",
-      "Drawing",
-      "Hypercasual",
-      "Kids",
-      "Physics",
-      "Santa",
-      "Santa Claus",
-      "Winter"
-    ],
-    "image": "https://img.gamemonetize.com/nnst3akvhwqn15l9dc36mofnbzfbt6js/512x384.jpg",
-    "downloads": "4.6K",
-    "rating": 4.7
-  },
-  {
     "id": 59986,
     "description": "Unwrap the joy of puzzling with Jingled Pieces ! Match and fit jigsaw pieces to reveal charming holiday scenes in this festive puzzle adventure.",
     "instructions": "Use a mouse or touchpad to play this game ",
@@ -1154,20 +1118,6 @@
     ],
     "image": "https://img.gamemonetize.com/qzl6bkduj5331a7v6c6ewdfcu6y93h0r/512x384.jpg",
     "downloads": "17.2K",
-    "rating": 4.5
-  },
-  {
-    "id": 60588,
-    "description": "Squid Sprunki Tap Game 2 is a popular tap game. Tap any Squid Soldier bottle and get all Sprunki head to win the level",
-    "instructions": "mouse only",
-    "category": "action",
-    "tags": [
-      "bottle",
-      "Sprunki"
-    ],
-    "name": "Squid Sprunki Tap Game 2",
-    "image": "https://img.gamemonetize.com/minjhmyzxksi0d55nkz5aji28cv5va3c/512x384.jpg",
-    "downloads": "12.4K",
     "rating": 4.5
   },
   {
@@ -2522,35 +2472,6 @@
     "rating": 4.7
   },
   {
-    "id": 61628,
-    "name": "Jiggle Master Man",
-    "description": "Jiggle master is a best game for time consuming process, you can play like applying logical thinking on every level. In every new level you can feel like exciting.",
-    "instructions": "Mouse click or tap to play",
-    "category": "puzzle",
-    "tags": [
-      "3D Games",
-      "Puzzle",
-      "Unity3D"
-    ],
-    "image": "https://img.gamemonetize.com/avj8mq4gqvzmfcrsqcbbu8o1gej9sgcz/512x384.jpg",
-    "downloads": "3.7K",
-    "rating": 3.6
-  },
-  {
-    "id": 61669,
-    "description": "Dot Link is an engaging and addictive puzzle game where you connect colored dots to solve challenging brain teasers. With thousands of enjoyable levels to explore, it encourages creative thinking and helps exercise your brain. Its the ideal game for anyone looking to keep their mind sharp and young!",
-    "instructions": "Mouse click or tap to play",
-    "category": "puzzle",
-    "tags": [
-      "2D",
-      "Puzzle"
-    ],
-    "name": "Line Connect the Dots",
-    "image": "https://img.gamemonetize.com/ocituu1fhhsz27hgi98hxaai0b85bffn/512x384.jpg",
-    "downloads": "2.8K",
-    "rating": 3.9
-  },
-  {
     "id": 61770,
     "name": "Power On",
     "description": "n Power On, a demanding HTML5 skill game, your objective is to illuminate every bulb in the least amount of time possible. To do this, you must correctly connect all the wires to the power supply. The difficulty of the game increases as you maneuver through intricate wire systems and make quick choices to turn on all the bulbs. To excel in Power On, strategize your moves thoughtfully and apply strategic thinking for optimal performance. Strive for minimal wire rotations to conserve time. Remember, not every bulb will have a direct connection to the power supply. Utilize junctions and intersections effectively.",
@@ -2924,35 +2845,6 @@
     "image": "https://img.gamemonetize.com/qopeb4icv6in54sldnbutbxy0dm4f3e8/512x384.jpg",
     "downloads": "4.9K",
     "rating": 4.1
-  },
-  {
-    "id": 62355,
-    "description": "Save My Pet is a fun and addictive puzzle game where you must protect your adorable pet from a swarm of angry bees! Using your creativity, draw a protective barrier around your pet to keep it safe from danger. But be careful, your lines must hold for a few seconds while the bees try to break through! With increasing difficulty, unique challenges, this game will test your problem-solving skills and quick thinking. Can you keep your pet safe from harm? Play Save My Pet now and find out!",
-    "instructions": "Mouse click or tap to play",
-    "category": "puzzle",
-    "tags": [
-      "Rescue"
-    ],
-    "name": "Save My Pet Puzzle",
-    "image": "https://img.gamemonetize.com/5hh7r1x9g9m5ukto6fsdnlpbiaws5dki/512x384.jpg",
-    "downloads": "18.8K",
-    "rating": 4.6
-  },
-  {
-    "id": 62357,
-    "description": "Choose an English letter or English Sentence, fill in this color, and update your knowledge. Use a color brush, panicle, and other tools like a printer to take pictures.",
-    "instructions": "Mouse click or tap to play",
-    "category": "puzzle",
-    "tags": [
-      "1 Player",
-      "Baby Games",
-      "Board",
-      "Drawing"
-    ],
-    "name": "English Training book",
-    "image": "https://img.gamemonetize.com/29e4ow4ph5lm4nybd22wg0s8lf9u3g7t/512x384.jpg",
-    "downloads": "16.5K",
-    "rating": 3.9
   },
   {
     "id": 62375,
